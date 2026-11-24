@@ -1,0 +1,6842 @@
+{
+ "config": {
+  "model": "Qwen/Qwen3-1.7B",
+  "revision": null,
+  "resolved_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "dtype": "torch.float32",
+  "layers": [
+   14
+  ],
+  "bits": [
+   2,
+   4
+  ],
+  "seeds": [
+   41
+  ],
+  "quick": true,
+  "j_ranks": {
+   "14": 20
+  },
+  "torch": "2.13.0+cpu"
+ },
+ "rows": [
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.710468292236328,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.68687629699707,
+     "choice_correct": true,
+     "kl": 0.00037153964512981474,
+     "delta_l2": 146.89724731445312,
+     "relative_rms": 0.7810660600662231,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.700016021728516,
+     "choice_correct": true,
+     "kl": 0.0009190652053803205,
+     "delta_l2": 146.8972625732422,
+     "relative_rms": 0.7810661792755127,
+     "restoration_l2": 209.5741424560547
+    },
+    "half_true": {
+     "margin": 25.743789672851562,
+     "choice_correct": true,
+     "kl": 1.2665992699112394e-06,
+     "delta_l2": 73.44862365722656,
+     "relative_rms": 0.3905330300331116,
+     "restoration_l2": 73.44862365722656
+    },
+    "half_random": {
+     "margin": 25.658519744873047,
+     "choice_correct": true,
+     "kl": 0.0003645705874077976,
+     "delta_l2": 164.63128662109375,
+     "relative_rms": 0.8753595948219299,
+     "restoration_l2": 73.44861602783203
+    },
+    "exact": {
+     "margin": 25.710468292236328,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 146.89724731445312
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.710468292236328,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.600502014160156,
+     "choice_correct": true,
+     "kl": 5.335401056072442e-06,
+     "delta_l2": 111.5265884399414,
+     "relative_rms": 0.5929970741271973,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.676136016845703,
+     "choice_correct": true,
+     "kl": 0.0006292334292083979,
+     "delta_l2": 111.5265884399414,
+     "relative_rms": 0.5929970741271973,
+     "restoration_l2": 157.83921813964844
+    },
+    "half_true": {
+     "margin": 25.682918548583984,
+     "choice_correct": true,
+     "kl": 1.1192772035428789e-05,
+     "delta_l2": 55.76329040527344,
+     "relative_rms": 0.29649850726127625,
+     "restoration_l2": 55.7632942199707
+    },
+    "half_random": {
+     "margin": 25.531097412109375,
+     "choice_correct": true,
+     "kl": 1.1583564628381282e-05,
+     "delta_l2": 124.08544158935547,
+     "relative_rms": 0.6597736477851868,
+     "restoration_l2": 55.7632942199707
+    },
+    "exact": {
+     "margin": 25.710468292236328,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 111.5265884399414
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.710468292236328,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.67350196838379,
+     "choice_correct": true,
+     "kl": 0.0003642102819867432,
+     "delta_l2": 166.7461700439453,
+     "relative_rms": 0.8866046071052551,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.714214324951172,
+     "choice_correct": true,
+     "kl": 0.0010298079578205943,
+     "delta_l2": 166.7461700439453,
+     "relative_rms": 0.8866046071052551,
+     "restoration_l2": 233.47061157226562
+    },
+    "half_true": {
+     "margin": 25.708778381347656,
+     "choice_correct": true,
+     "kl": 2.2566850020666607e-05,
+     "delta_l2": 83.37308502197266,
+     "relative_rms": 0.44330230355262756,
+     "restoration_l2": 83.37308502197266
+    },
+    "half_random": {
+     "margin": 25.528987884521484,
+     "choice_correct": true,
+     "kl": 0.000654974952340126,
+     "delta_l2": 186.60955810546875,
+     "relative_rms": 0.9922200441360474,
+     "restoration_l2": 83.37307739257812
+    },
+    "exact": {
+     "margin": 25.71046257019043,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 2.9828597689629532e-06,
+     "relative_rms": 1.5860138091738918e-08,
+     "restoration_l2": 166.7461700439453
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.710468292236328,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.679637908935547,
+     "choice_correct": true,
+     "kl": 1.4489667591988109e-05,
+     "delta_l2": 27.733985900878906,
+     "relative_rms": 0.14746414124965668,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.685104370117188,
+     "choice_correct": true,
+     "kl": 3.852209192700684e-05,
+     "delta_l2": 27.733985900878906,
+     "relative_rms": 0.14746414124965668,
+     "restoration_l2": 39.734256744384766
+    },
+    "half_true": {
+     "margin": 25.695146560668945,
+     "choice_correct": true,
+     "kl": 2.9653597266587894e-06,
+     "delta_l2": 13.866992950439453,
+     "relative_rms": 0.07373207062482834,
+     "restoration_l2": 13.86699390411377
+    },
+    "half_random": {
+     "margin": 25.679086685180664,
+     "choice_correct": true,
+     "kl": 8.071813681453932e-06,
+     "delta_l2": 30.89642333984375,
+     "relative_rms": 0.16427910327911377,
+     "restoration_l2": 13.866991996765137
+    },
+    "exact": {
+     "margin": 25.710460662841797,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 2.3657793235543068e-07,
+     "relative_rms": 1.2579064456730293e-09,
+     "restoration_l2": 27.733985900878906
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.710468292236328,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.708465576171875,
+     "choice_correct": true,
+     "kl": 8.170393357431749e-07,
+     "delta_l2": 24.00455093383789,
+     "relative_rms": 0.12763439118862152,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.688045501708984,
+     "choice_correct": true,
+     "kl": 2.868826595658902e-05,
+     "delta_l2": 24.00455093383789,
+     "relative_rms": 0.12763439118862152,
+     "restoration_l2": 33.5720100402832
+    },
+    "half_true": {
+     "margin": 25.710018157958984,
+     "choice_correct": true,
+     "kl": 1.663799764628493e-09,
+     "delta_l2": 12.002274513244629,
+     "relative_rms": 0.06381718814373016,
+     "restoration_l2": 12.002274513244629
+    },
+    "half_random": {
+     "margin": 25.70802879333496,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 26.50193977355957,
+     "relative_rms": 0.1409132331609726,
+     "restoration_l2": 12.002274513244629
+    },
+    "exact": {
+     "margin": 25.710458755493164,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.8704518822687533e-07,
+     "relative_rms": 9.945363421692832e-10,
+     "restoration_l2": 24.00455093383789
+    },
+    "noise_in_span": {
+     "margin": 25.701435089111328,
+     "choice_correct": true,
+     "kl": 1.7796389784052735e-06,
+     "delta_l2": 24.00455093383789,
+     "relative_rms": 0.12763439118862152,
+     "restoration_l2": 32.40427017211914
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.710468292236328,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.71282958984375,
+     "choice_correct": true,
+     "kl": 3.956908756208577e-07,
+     "delta_l2": 3.4080026149749756,
+     "relative_rms": 0.0181206613779068,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.70697784423828,
+     "choice_correct": true,
+     "kl": 4.6445481416412804e-07,
+     "delta_l2": 3.4080026149749756,
+     "relative_rms": 0.0181206613779068,
+     "restoration_l2": 4.778183460235596
+    },
+    "half_true": {
+     "margin": 25.71164894104004,
+     "choice_correct": true,
+     "kl": 5.420722359872343e-08,
+     "delta_l2": 1.7040011882781982,
+     "relative_rms": 0.009060329757630825,
+     "restoration_l2": 1.7040011882781982
+    },
+    "half_random": {
+     "margin": 25.712888717651367,
+     "choice_correct": true,
+     "kl": 5.583744382420264e-07,
+     "delta_l2": 3.770270824432373,
+     "relative_rms": 0.02004687488079071,
+     "restoration_l2": 1.7040010690689087
+    },
+    "exact": {
+     "margin": 25.710468292236328,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 3.4080026149749756
+    },
+    "noise_in_span": {
+     "margin": 25.708629608154297,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.4080023765563965,
+     "relative_rms": 0.01812065951526165,
+     "restoration_l2": 4.716297149658203
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.710468292236328,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.6842041015625,
+     "choice_correct": true,
+     "kl": 2.2274803086475004e-06,
+     "delta_l2": 28.47185707092285,
+     "relative_rms": 0.15138746798038483,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.684539794921875,
+     "choice_correct": true,
+     "kl": 4.0735994843998924e-05,
+     "delta_l2": 28.47185707092285,
+     "relative_rms": 0.15138746798038483,
+     "restoration_l2": 40.4561882019043
+    },
+    "half_true": {
+     "margin": 25.696849822998047,
+     "choice_correct": true,
+     "kl": 2.0503162545537634e-07,
+     "delta_l2": 14.235929489135742,
+     "relative_rms": 0.07569373399019241,
+     "restoration_l2": 14.235928535461426
+    },
+    "half_random": {
+     "margin": 25.681316375732422,
+     "choice_correct": true,
+     "kl": 3.5189773939237057e-07,
+     "delta_l2": 31.5263729095459,
+     "relative_rms": 0.16762860119342804,
+     "restoration_l2": 14.235926628112793
+    },
+    "exact": {
+     "margin": 25.710464477539062,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 2.8471066571000847e-07,
+     "relative_rms": 1.5138326148189662e-09,
+     "restoration_l2": 28.47185707092285
+    },
+    "noise_in_span": {
+     "margin": 25.72559356689453,
+     "choice_correct": true,
+     "kl": 4.576325864036335e-06,
+     "delta_l2": 28.47185707092285,
+     "relative_rms": 0.15138746798038483,
+     "restoration_l2": 43.90237045288086
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.710468292236328,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.713218688964844,
+     "choice_correct": true,
+     "kl": 2.0069602157946065e-07,
+     "delta_l2": 3.4626402854919434,
+     "relative_rms": 0.018411174416542053,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.7069149017334,
+     "choice_correct": true,
+     "kl": 5.191753871258697e-07,
+     "delta_l2": 3.4626405239105225,
+     "relative_rms": 0.018411176279187202,
+     "restoration_l2": 4.89801025390625
+    },
+    "half_true": {
+     "margin": 25.71185302734375,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.7313202619552612,
+     "relative_rms": 0.009205588139593601,
+     "restoration_l2": 1.7313199043273926
+    },
+    "half_random": {
+     "margin": 25.71318817138672,
+     "choice_correct": true,
+     "kl": 5.663465074690066e-08,
+     "delta_l2": 3.830465078353882,
+     "relative_rms": 0.020366933196783066,
+     "restoration_l2": 1.7313201427459717
+    },
+    "exact": {
+     "margin": 25.710468292236328,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 3.4626402854919434
+    },
+    "noise_in_span": {
+     "margin": 25.712520599365234,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.4626402854919434,
+     "relative_rms": 0.018411174416542053,
+     "restoration_l2": 3.6936657428741455
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich specific category fits the item?\nA. flower\nB. tree\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 22.10206413269043,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.860782623291016,
+     "choice_correct": true,
+     "kl": 5.51069412324523e-08,
+     "delta_l2": 146.89724731445312,
+     "relative_rms": 0.7810660600662231,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 22.09829330444336,
+     "choice_correct": true,
+     "kl": 0.0003540985635481775,
+     "delta_l2": 146.8972625732422,
+     "relative_rms": 0.7810661792755127,
+     "restoration_l2": 209.5741424560547
+    },
+    "half_true": {
+     "margin": 22.1365966796875,
+     "choice_correct": true,
+     "kl": 2.392436726950109e-05,
+     "delta_l2": 73.44862365722656,
+     "relative_rms": 0.3905330300331116,
+     "restoration_l2": 73.44862365722656
+    },
+    "half_random": {
+     "margin": 22.17594337463379,
+     "choice_correct": true,
+     "kl": 2.3447144485544413e-05,
+     "delta_l2": 164.63128662109375,
+     "relative_rms": 0.8753595948219299,
+     "restoration_l2": 73.44861602783203
+    },
+    "exact": {
+     "margin": 22.10206413269043,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 146.89724731445312
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich specific category fits the item?\nA. flower\nB. tree\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 22.10206413269043,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 22.065834045410156,
+     "choice_correct": true,
+     "kl": 5.707491436623968e-05,
+     "delta_l2": 111.5265884399414,
+     "relative_rms": 0.5929970741271973,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 22.115886688232422,
+     "choice_correct": true,
+     "kl": 0.00029380686464719474,
+     "delta_l2": 111.5265884399414,
+     "relative_rms": 0.5929970741271973,
+     "restoration_l2": 157.83921813964844
+    },
+    "half_true": {
+     "margin": 22.120288848876953,
+     "choice_correct": true,
+     "kl": 5.1520633860491216e-05,
+     "delta_l2": 55.76329040527344,
+     "relative_rms": 0.29649850726127625,
+     "restoration_l2": 55.7632942199707
+    },
+    "half_random": {
+     "margin": 21.992919921875,
+     "choice_correct": true,
+     "kl": 9.278651850763708e-05,
+     "delta_l2": 124.08544158935547,
+     "relative_rms": 0.6597736477851868,
+     "restoration_l2": 55.7632942199707
+    },
+    "exact": {
+     "margin": 22.10206413269043,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 111.5265884399414
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich specific category fits the item?\nA. flower\nB. tree\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 22.10206413269043,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 22.097553253173828,
+     "choice_correct": true,
+     "kl": 2.7137677534483373e-05,
+     "delta_l2": 166.7461700439453,
+     "relative_rms": 0.8866046071052551,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 22.087177276611328,
+     "choice_correct": true,
+     "kl": 0.0003563241916708648,
+     "delta_l2": 166.7461700439453,
+     "relative_rms": 0.8866046071052551,
+     "restoration_l2": 233.47061157226562
+    },
+    "half_true": {
+     "margin": 22.122793197631836,
+     "choice_correct": true,
+     "kl": 2.3600359781994484e-06,
+     "delta_l2": 83.37308502197266,
+     "relative_rms": 0.44330230355262756,
+     "restoration_l2": 83.37308502197266
+    },
+    "half_random": {
+     "margin": 22.047679901123047,
+     "choice_correct": true,
+     "kl": 4.9941962060984224e-05,
+     "delta_l2": 186.60955810546875,
+     "relative_rms": 0.9922200441360474,
+     "restoration_l2": 83.37307739257812
+    },
+    "exact": {
+     "margin": 22.102060317993164,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 2.9828597689629532e-06,
+     "relative_rms": 1.5860138091738918e-08,
+     "restoration_l2": 166.7461700439453
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich specific category fits the item?\nA. flower\nB. tree\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 22.10206413269043,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 22.09740447998047,
+     "choice_correct": true,
+     "kl": 2.578824023657944e-06,
+     "delta_l2": 27.733985900878906,
+     "relative_rms": 0.14746414124965668,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 22.117916107177734,
+     "choice_correct": true,
+     "kl": 3.222392115276307e-05,
+     "delta_l2": 27.733985900878906,
+     "relative_rms": 0.14746414124965668,
+     "restoration_l2": 39.734256744384766
+    },
+    "half_true": {
+     "margin": 22.099145889282227,
+     "choice_correct": true,
+     "kl": 6.44012175143871e-07,
+     "delta_l2": 13.866992950439453,
+     "relative_rms": 0.07373207062482834,
+     "restoration_l2": 13.86699390411377
+    },
+    "half_random": {
+     "margin": 22.085603713989258,
+     "choice_correct": true,
+     "kl": 1.0307434195055976e-06,
+     "delta_l2": 30.89642333984375,
+     "relative_rms": 0.16427910327911377,
+     "restoration_l2": 13.866991996765137
+    },
+    "exact": {
+     "margin": 22.10205841064453,
+     "choice_correct": true,
+     "kl": 2.0140339174190558e-08,
+     "delta_l2": 2.3657793235543068e-07,
+     "relative_rms": 1.2579064456730293e-09,
+     "restoration_l2": 27.733985900878906
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich specific category fits the item?\nA. flower\nB. tree\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 22.10206413269043,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 22.08086395263672,
+     "choice_correct": true,
+     "kl": 7.87437031135596e-08,
+     "delta_l2": 24.00455093383789,
+     "relative_rms": 0.12763439118862152,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 22.11590576171875,
+     "choice_correct": true,
+     "kl": 2.479499926266726e-05,
+     "delta_l2": 24.00455093383789,
+     "relative_rms": 0.12763439118862152,
+     "restoration_l2": 33.5720100402832
+    },
+    "half_true": {
+     "margin": 22.09129524230957,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 12.002274513244629,
+     "relative_rms": 0.06381718814373016,
+     "restoration_l2": 12.002274513244629
+    },
+    "half_random": {
+     "margin": 22.074678421020508,
+     "choice_correct": true,
+     "kl": 4.522459846612037e-07,
+     "delta_l2": 26.50193977355957,
+     "relative_rms": 0.1409132331609726,
+     "restoration_l2": 12.002274513244629
+    },
+    "exact": {
+     "margin": 22.102054595947266,
+     "choice_correct": true,
+     "kl": 6.475582381426648e-08,
+     "delta_l2": 1.8704518822687533e-07,
+     "relative_rms": 9.945363421692832e-10,
+     "restoration_l2": 24.00455093383789
+    },
+    "noise_in_span": {
+     "margin": 22.07282257080078,
+     "choice_correct": true,
+     "kl": 1.1515555797814159e-06,
+     "delta_l2": 24.00455093383789,
+     "relative_rms": 0.12763439118862152,
+     "restoration_l2": 32.40427017211914
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich specific category fits the item?\nA. flower\nB. tree\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 22.10206413269043,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 22.10304069519043,
+     "choice_correct": true,
+     "kl": 1.1531911070505885e-07,
+     "delta_l2": 3.4080026149749756,
+     "relative_rms": 0.0181206613779068,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 22.103954315185547,
+     "choice_correct": true,
+     "kl": 5.79623076646385e-07,
+     "delta_l2": 3.4080026149749756,
+     "relative_rms": 0.0181206613779068,
+     "restoration_l2": 4.778183460235596
+    },
+    "half_true": {
+     "margin": 22.102554321289062,
+     "choice_correct": true,
+     "kl": 1.91624582868144e-08,
+     "delta_l2": 1.7040011882781982,
+     "relative_rms": 0.009060329757630825,
+     "restoration_l2": 1.7040011882781982
+    },
+    "half_random": {
+     "margin": 22.101911544799805,
+     "choice_correct": true,
+     "kl": 1.847058257453682e-07,
+     "delta_l2": 3.770270824432373,
+     "relative_rms": 0.02004687488079071,
+     "restoration_l2": 1.7040010690689087
+    },
+    "exact": {
+     "margin": 22.10206413269043,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 3.4080026149749756
+    },
+    "noise_in_span": {
+     "margin": 22.09714126586914,
+     "choice_correct": true,
+     "kl": 6.909465355420252e-08,
+     "delta_l2": 3.4080023765563965,
+     "relative_rms": 0.01812065951526165,
+     "restoration_l2": 4.716297149658203
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich specific category fits the item?\nA. flower\nB. tree\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 22.10206413269043,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 22.09786033630371,
+     "choice_correct": true,
+     "kl": 6.909590979375935e-07,
+     "delta_l2": 28.47185707092285,
+     "relative_rms": 0.15138746798038483,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 22.11833381652832,
+     "choice_correct": true,
+     "kl": 3.3732198062352836e-05,
+     "delta_l2": 28.47185707092285,
+     "relative_rms": 0.15138746798038483,
+     "restoration_l2": 40.4561882019043
+    },
+    "half_true": {
+     "margin": 22.100496292114258,
+     "choice_correct": true,
+     "kl": 2.817976678670675e-07,
+     "delta_l2": 14.235929489135742,
+     "relative_rms": 0.07569373399019241,
+     "restoration_l2": 14.235928535461426
+    },
+    "half_random": {
+     "margin": 22.088157653808594,
+     "choice_correct": true,
+     "kl": 2.5525914679747075e-06,
+     "delta_l2": 31.5263729095459,
+     "relative_rms": 0.16762860119342804,
+     "restoration_l2": 14.235926628112793
+    },
+    "exact": {
+     "margin": 22.10205078125,
+     "choice_correct": true,
+     "kl": 2.014033739783372e-08,
+     "delta_l2": 2.8471066571000847e-07,
+     "relative_rms": 1.5138326148189662e-09,
+     "restoration_l2": 28.47185707092285
+    },
+    "noise_in_span": {
+     "margin": 22.125564575195312,
+     "choice_correct": true,
+     "kl": 4.015917966171401e-06,
+     "delta_l2": 28.47185707092285,
+     "relative_rms": 0.15138746798038483,
+     "restoration_l2": 43.90237045288086
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich specific category fits the item?\nA. flower\nB. tree\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 22.10206413269043,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 22.10604476928711,
+     "choice_correct": true,
+     "kl": 8.591283773284886e-08,
+     "delta_l2": 3.4626402854919434,
+     "relative_rms": 0.018411174416542053,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 22.103973388671875,
+     "choice_correct": true,
+     "kl": 6.370448772941018e-07,
+     "delta_l2": 3.4626405239105225,
+     "relative_rms": 0.018411176279187202,
+     "restoration_l2": 4.89801025390625
+    },
+    "half_true": {
+     "margin": 22.104082107543945,
+     "choice_correct": true,
+     "kl": 9.971436298883418e-08,
+     "delta_l2": 1.7313202619552612,
+     "relative_rms": 0.009205588139593601,
+     "restoration_l2": 1.7313199043273926
+    },
+    "half_random": {
+     "margin": 22.104896545410156,
+     "choice_correct": true,
+     "kl": 1.9437142384504114e-07,
+     "delta_l2": 3.830465078353882,
+     "relative_rms": 0.020366933196783066,
+     "restoration_l2": 1.7313201427459717
+    },
+    "exact": {
+     "margin": 22.10206413269043,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 3.4626402854919434
+    },
+    "noise_in_span": {
+     "margin": 22.10525894165039,
+     "choice_correct": true,
+     "kl": 1.1829232704485548e-07,
+     "delta_l2": 3.4626402854919434,
+     "relative_rms": 0.018411174416542053,
+     "restoration_l2": 3.6936657428741455
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich item was named?\nA. oak\nB. birch\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 17.98472023010254,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 17.92998695373535,
+     "choice_correct": true,
+     "kl": 3.690304947667755e-05,
+     "delta_l2": 146.89724731445312,
+     "relative_rms": 0.7810660600662231,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 17.6630802154541,
+     "choice_correct": true,
+     "kl": 9.860238787950948e-05,
+     "delta_l2": 146.8972625732422,
+     "relative_rms": 0.7810661792755127,
+     "restoration_l2": 209.5741424560547
+    },
+    "half_true": {
+     "margin": 18.063228607177734,
+     "choice_correct": true,
+     "kl": 2.2402998638426652e-06,
+     "delta_l2": 73.44862365722656,
+     "relative_rms": 0.3905330300331116,
+     "restoration_l2": 73.44862365722656
+    },
+    "half_random": {
+     "margin": 18.003921508789062,
+     "choice_correct": true,
+     "kl": 8.607160998508334e-05,
+     "delta_l2": 164.63128662109375,
+     "relative_rms": 0.8753595948219299,
+     "restoration_l2": 73.44861602783203
+    },
+    "exact": {
+     "margin": 17.98472023010254,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 146.89724731445312
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich item was named?\nA. oak\nB. birch\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 17.98472023010254,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 17.768573760986328,
+     "choice_correct": true,
+     "kl": 1.5368698313977802e-06,
+     "delta_l2": 111.5265884399414,
+     "relative_rms": 0.5929970741271973,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 17.679384231567383,
+     "choice_correct": true,
+     "kl": 5.892114495509304e-05,
+     "delta_l2": 111.5265884399414,
+     "relative_rms": 0.5929970741271973,
+     "restoration_l2": 157.83921813964844
+    },
+    "half_true": {
+     "margin": 17.86019515991211,
+     "choice_correct": true,
+     "kl": 6.507830789814761e-07,
+     "delta_l2": 55.76329040527344,
+     "relative_rms": 0.29649850726127625,
+     "restoration_l2": 55.7632942199707
+    },
+    "half_random": {
+     "margin": 17.908153533935547,
+     "choice_correct": true,
+     "kl": 2.2390840968000703e-05,
+     "delta_l2": 124.08544158935547,
+     "relative_rms": 0.6597736477851868,
+     "restoration_l2": 55.7632942199707
+    },
+    "exact": {
+     "margin": 17.98472023010254,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 111.5265884399414
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich item was named?\nA. oak\nB. birch\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 17.98472023010254,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 18.06789779663086,
+     "choice_correct": true,
+     "kl": 8.859950639816816e-07,
+     "delta_l2": 166.7461700439453,
+     "relative_rms": 0.8866046071052551,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 17.67034912109375,
+     "choice_correct": true,
+     "kl": 0.00011690529208863154,
+     "delta_l2": 166.7461700439453,
+     "relative_rms": 0.8866046071052551,
+     "restoration_l2": 233.47061157226562
+    },
+    "half_true": {
+     "margin": 18.023836135864258,
+     "choice_correct": true,
+     "kl": 2.364062765991548e-06,
+     "delta_l2": 83.37308502197266,
+     "relative_rms": 0.44330230355262756,
+     "restoration_l2": 83.37308502197266
+    },
+    "half_random": {
+     "margin": 17.891498565673828,
+     "choice_correct": true,
+     "kl": 1.0306157491868362e-06,
+     "delta_l2": 186.60955810546875,
+     "relative_rms": 0.9922200441360474,
+     "restoration_l2": 83.37307739257812
+    },
+    "exact": {
+     "margin": 17.984718322753906,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 2.9828597689629532e-06,
+     "relative_rms": 1.5860138091738918e-08,
+     "restoration_l2": 166.7461700439453
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich item was named?\nA. oak\nB. birch\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 17.98472023010254,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 17.883102416992188,
+     "choice_correct": true,
+     "kl": 1.9832380075968103e-06,
+     "delta_l2": 27.733985900878906,
+     "relative_rms": 0.14746414124965668,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 17.896236419677734,
+     "choice_correct": true,
+     "kl": 2.4090097667794907e-06,
+     "delta_l2": 27.733985900878906,
+     "relative_rms": 0.14746414124965668,
+     "restoration_l2": 39.734256744384766
+    },
+    "half_true": {
+     "margin": 17.930938720703125,
+     "choice_correct": true,
+     "kl": 6.252252546801174e-07,
+     "delta_l2": 13.866992950439453,
+     "relative_rms": 0.07373207062482834,
+     "restoration_l2": 13.86699390411377
+    },
+    "half_random": {
+     "margin": 17.903371810913086,
+     "choice_correct": true,
+     "kl": 6.46832859274582e-07,
+     "delta_l2": 30.89642333984375,
+     "relative_rms": 0.16427910327911377,
+     "restoration_l2": 13.866991996765137
+    },
+    "exact": {
+     "margin": 17.984725952148438,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 2.3657793235543068e-07,
+     "relative_rms": 1.2579064456730293e-09,
+     "restoration_l2": 27.733985900878906
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich item was named?\nA. oak\nB. birch\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 17.98472023010254,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 17.970966339111328,
+     "choice_correct": true,
+     "kl": 5.1073385520794545e-08,
+     "delta_l2": 24.00455093383789,
+     "relative_rms": 0.12763439118862152,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 17.90890884399414,
+     "choice_correct": true,
+     "kl": 1.7473192883699085e-06,
+     "delta_l2": 24.00455093383789,
+     "relative_rms": 0.12763439118862152,
+     "restoration_l2": 33.5720100402832
+    },
+    "half_true": {
+     "margin": 17.977802276611328,
+     "choice_correct": true,
+     "kl": 2.2563455104318564e-08,
+     "delta_l2": 12.002274513244629,
+     "relative_rms": 0.06381718814373016,
+     "restoration_l2": 12.002274513244629
+    },
+    "half_random": {
+     "margin": 17.987192153930664,
+     "choice_correct": true,
+     "kl": 3.5728169223148143e-07,
+     "delta_l2": 26.50193977355957,
+     "relative_rms": 0.1409132331609726,
+     "restoration_l2": 12.002274513244629
+    },
+    "exact": {
+     "margin": 17.984739303588867,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.8704518822687533e-07,
+     "relative_rms": 9.945363421692832e-10,
+     "restoration_l2": 24.00455093383789
+    },
+    "noise_in_span": {
+     "margin": 17.916460037231445,
+     "choice_correct": true,
+     "kl": 8.421537245340005e-08,
+     "delta_l2": 24.00455093383789,
+     "relative_rms": 0.12763439118862152,
+     "restoration_l2": 32.40427017211914
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich item was named?\nA. oak\nB. birch\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 17.98472023010254,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 17.982650756835938,
+     "choice_correct": true,
+     "kl": 7.72226371736906e-08,
+     "delta_l2": 3.4080026149749756,
+     "relative_rms": 0.0181206613779068,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 17.97481918334961,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.4080026149749756,
+     "relative_rms": 0.0181206613779068,
+     "restoration_l2": 4.778183460235596
+    },
+    "half_true": {
+     "margin": 17.983707427978516,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.7040011882781982,
+     "relative_rms": 0.009060329757630825,
+     "restoration_l2": 1.7040011882781982
+    },
+    "half_random": {
+     "margin": 17.984878540039062,
+     "choice_correct": true,
+     "kl": 9.380957521898381e-08,
+     "delta_l2": 3.770270824432373,
+     "relative_rms": 0.02004687488079071,
+     "restoration_l2": 1.7040010690689087
+    },
+    "exact": {
+     "margin": 17.98472023010254,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 3.4080026149749756
+    },
+    "noise_in_span": {
+     "margin": 17.974241256713867,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.4080023765563965,
+     "relative_rms": 0.01812065951526165,
+     "restoration_l2": 4.716297149658203
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich item was named?\nA. oak\nB. birch\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 17.98472023010254,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 17.994468688964844,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 28.47185707092285,
+     "relative_rms": 0.15138746798038483,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 17.89373779296875,
+     "choice_correct": true,
+     "kl": 2.5199549327226123e-06,
+     "delta_l2": 28.47185707092285,
+     "relative_rms": 0.15138746798038483,
+     "restoration_l2": 40.4561882019043
+    },
+    "half_true": {
+     "margin": 17.98957061767578,
+     "choice_correct": true,
+     "kl": 2.6680989861915805e-08,
+     "delta_l2": 14.235929489135742,
+     "relative_rms": 0.07569373399019241,
+     "restoration_l2": 14.235928535461426
+    },
+    "half_random": {
+     "margin": 18.0046443939209,
+     "choice_correct": true,
+     "kl": 3.838241298126377e-07,
+     "delta_l2": 31.5263729095459,
+     "relative_rms": 0.16762860119342804,
+     "restoration_l2": 14.235926628112793
+    },
+    "exact": {
+     "margin": 17.984731674194336,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 2.8471066571000847e-07,
+     "relative_rms": 1.5138326148189662e-09,
+     "restoration_l2": 28.47185707092285
+    },
+    "noise_in_span": {
+     "margin": 17.998294830322266,
+     "choice_correct": true,
+     "kl": 2.1576275344159512e-07,
+     "delta_l2": 28.47185707092285,
+     "relative_rms": 0.15138746798038483,
+     "restoration_l2": 43.90237045288086
+    }
+   }
+  },
+  {
+   "item": "oak",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: oak.\nWhich item was named?\nA. oak\nB. birch\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 17.98472023010254,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 17.98571014404297,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.4626402854919434,
+     "relative_rms": 0.018411174416542053,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 17.974660873413086,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.4626405239105225,
+     "relative_rms": 0.018411176279187202,
+     "restoration_l2": 4.89801025390625
+    },
+    "half_true": {
+     "margin": 17.985193252563477,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.7313202619552612,
+     "relative_rms": 0.009205588139593601,
+     "restoration_l2": 1.7313199043273926
+    },
+    "half_random": {
+     "margin": 17.987995147705078,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.830465078353882,
+     "relative_rms": 0.020366933196783066,
+     "restoration_l2": 1.7313201427459717
+    },
+    "exact": {
+     "margin": 17.98472023010254,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 3.4626402854919434
+    },
+    "noise_in_span": {
+     "margin": 17.987022399902344,
+     "choice_correct": true,
+     "kl": 2.588122072211263e-08,
+     "delta_l2": 3.4626402854919434,
+     "relative_rms": 0.018411174416542053,
+     "restoration_l2": 3.6936657428741455
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 26.100021362304688,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.992475509643555,
+     "choice_correct": true,
+     "kl": 0.0010599594097584486,
+     "delta_l2": 145.59744262695312,
+     "relative_rms": 0.7777774333953857,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 26.008798599243164,
+     "choice_correct": true,
+     "kl": 0.002272323239594698,
+     "delta_l2": 145.59744262695312,
+     "relative_rms": 0.7777774333953857,
+     "restoration_l2": 205.3920440673828
+    },
+    "half_true": {
+     "margin": 26.079957962036133,
+     "choice_correct": true,
+     "kl": 0.0001331098610535264,
+     "delta_l2": 72.79872131347656,
+     "relative_rms": 0.38888871669769287,
+     "restoration_l2": 72.79872131347656
+    },
+    "half_random": {
+     "margin": 25.95010757446289,
+     "choice_correct": true,
+     "kl": 0.0012635670136660337,
+     "delta_l2": 163.92201232910156,
+     "relative_rms": 0.8756667971611023,
+     "restoration_l2": 72.79872131347656
+    },
+    "exact": {
+     "margin": 26.100021362304688,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 145.59744262695312
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 26.100021362304688,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.925304412841797,
+     "choice_correct": true,
+     "kl": 0.0012866355245932937,
+     "delta_l2": 114.32463836669922,
+     "relative_rms": 0.6107190251350403,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 26.00884246826172,
+     "choice_correct": true,
+     "kl": 0.0017272761324420571,
+     "delta_l2": 114.32463836669922,
+     "relative_rms": 0.6107190251350403,
+     "restoration_l2": 160.14100646972656
+    },
+    "half_true": {
+     "margin": 26.051925659179688,
+     "choice_correct": true,
+     "kl": 4.688216358772479e-05,
+     "delta_l2": 57.16231918334961,
+     "relative_rms": 0.30535951256752014,
+     "restoration_l2": 57.16231918334961
+    },
+    "half_random": {
+     "margin": 25.798324584960938,
+     "choice_correct": true,
+     "kl": 0.002067339839413762,
+     "delta_l2": 127.95446014404297,
+     "relative_rms": 0.6835291385650635,
+     "restoration_l2": 57.162315368652344
+    },
+    "exact": {
+     "margin": 26.100021362304688,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 114.32463836669922
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 26.100021362304688,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 26.09186553955078,
+     "choice_correct": true,
+     "kl": 5.024352503824048e-05,
+     "delta_l2": 177.7793426513672,
+     "relative_rms": 0.9496922492980957,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 26.013225555419922,
+     "choice_correct": true,
+     "kl": 0.002662231680005789,
+     "delta_l2": 177.77935791015625,
+     "relative_rms": 0.9496923089027405,
+     "restoration_l2": 251.43487548828125
+    },
+    "half_true": {
+     "margin": 26.034805297851562,
+     "choice_correct": true,
+     "kl": 3.791132621699944e-05,
+     "delta_l2": 88.8896713256836,
+     "relative_rms": 0.47484612464904785,
+     "restoration_l2": 88.8896713256836
+    },
+    "half_random": {
+     "margin": 25.816280364990234,
+     "choice_correct": true,
+     "kl": 0.0014612923841923475,
+     "delta_l2": 201.0083465576172,
+     "relative_rms": 1.07378089427948,
+     "restoration_l2": 88.88966369628906
+    },
+    "exact": {
+     "margin": 26.100025177001953,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 2.361634187764139e-06,
+     "relative_rms": 1.2615783084868326e-08,
+     "restoration_l2": 177.7793426513672
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 26.100021362304688,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 26.068883895874023,
+     "choice_correct": true,
+     "kl": 3.2773357816040516e-05,
+     "delta_l2": 32.95740509033203,
+     "relative_rms": 0.17605753242969513,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 26.060646057128906,
+     "choice_correct": true,
+     "kl": 0.00018799454846885055,
+     "delta_l2": 32.95740509033203,
+     "relative_rms": 0.17605753242969513,
+     "restoration_l2": 47.19693374633789
+    },
+    "half_true": {
+     "margin": 26.083942413330078,
+     "choice_correct": true,
+     "kl": 7.75655462348368e-06,
+     "delta_l2": 16.478702545166016,
+     "relative_rms": 0.08802876621484756,
+     "restoration_l2": 16.478702545166016
+    },
+    "half_random": {
+     "margin": 26.06089973449707,
+     "choice_correct": true,
+     "kl": 2.2489844923256896e-05,
+     "delta_l2": 36.904293060302734,
+     "relative_rms": 0.19714169204235077,
+     "restoration_l2": 16.478700637817383
+    },
+    "exact": {
+     "margin": 26.100027084350586,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.598715352381987e-07,
+     "relative_rms": 1.922423553679664e-09,
+     "restoration_l2": 32.95740509033203
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 26.100021362304688,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 26.108062744140625,
+     "choice_correct": true,
+     "kl": 1.1491716804812313e-06,
+     "delta_l2": 21.77938461303711,
+     "relative_rms": 0.1163448616862297,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 26.073444366455078,
+     "choice_correct": true,
+     "kl": 8.18156186142005e-05,
+     "delta_l2": 21.779386520385742,
+     "relative_rms": 0.1163448691368103,
+     "restoration_l2": 30.39015007019043
+    },
+    "half_true": {
+     "margin": 26.103797912597656,
+     "choice_correct": true,
+     "kl": 1.1075741923605165e-07,
+     "delta_l2": 10.889691352844238,
+     "relative_rms": 0.058172423392534256,
+     "restoration_l2": 10.889691352844238
+    },
+    "half_random": {
+     "margin": 26.10409927368164,
+     "choice_correct": true,
+     "kl": 4.964767867932096e-07,
+     "delta_l2": 24.610715866088867,
+     "relative_rms": 0.1314697563648224,
+     "restoration_l2": 10.889692306518555
+    },
+    "exact": {
+     "margin": 26.100027084350586,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.5628469896000752e-07,
+     "relative_rms": 8.348684521486405e-10,
+     "restoration_l2": 21.77938461303711
+    },
+    "noise_in_span": {
+     "margin": 26.091880798339844,
+     "choice_correct": true,
+     "kl": 8.192241693905089e-06,
+     "delta_l2": 21.77938461303711,
+     "relative_rms": 0.1163448616862297,
+     "restoration_l2": 29.98393440246582
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 26.100021362304688,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 26.098989486694336,
+     "choice_correct": true,
+     "kl": 2.726472381198164e-09,
+     "delta_l2": 4.1919636726379395,
+     "relative_rms": 0.022393351420760155,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 26.094837188720703,
+     "choice_correct": true,
+     "kl": 2.901591187765007e-06,
+     "delta_l2": 4.191964149475098,
+     "relative_rms": 0.022393355146050453,
+     "restoration_l2": 5.906671524047852
+    },
+    "half_true": {
+     "margin": 26.09951400756836,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 2.0959818363189697,
+     "relative_rms": 0.011196675710380077,
+     "restoration_l2": 2.0959818363189697
+    },
+    "half_random": {
+     "margin": 26.098268508911133,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 4.637706756591797,
+     "relative_rms": 0.024774499237537384,
+     "restoration_l2": 2.0959815979003906
+    },
+    "exact": {
+     "margin": 26.100021362304688,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 4.1919636726379395
+    },
+    "noise_in_span": {
+     "margin": 26.098495483398438,
+     "choice_correct": true,
+     "kl": 3.116949756076792e-07,
+     "delta_l2": 4.1919636726379395,
+     "relative_rms": 0.022393351420760155,
+     "restoration_l2": 5.177241802215576
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 26.100021362304688,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 26.080062866210938,
+     "choice_correct": true,
+     "kl": 8.514234650647268e-06,
+     "delta_l2": 20.096527099609375,
+     "relative_rms": 0.10735508054494858,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 26.075435638427734,
+     "choice_correct": true,
+     "kl": 6.958456651773304e-05,
+     "delta_l2": 20.096529006958008,
+     "relative_rms": 0.10735509544610977,
+     "restoration_l2": 28.595266342163086
+    },
+    "half_true": {
+     "margin": 26.089733123779297,
+     "choice_correct": true,
+     "kl": 2.25940357267973e-06,
+     "delta_l2": 10.048263549804688,
+     "relative_rms": 0.05367754027247429,
+     "restoration_l2": 10.048264503479004
+    },
+    "half_random": {
+     "margin": 26.07667350769043,
+     "choice_correct": true,
+     "kl": 1.1938098396058194e-05,
+     "delta_l2": 22.489097595214844,
+     "relative_rms": 0.12013612687587738,
+     "restoration_l2": 10.048262596130371
+    },
+    "exact": {
+     "margin": 26.100013732910156,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.564621925354004e-07,
+     "relative_rms": 8.358166381228216e-10,
+     "restoration_l2": 20.096527099609375
+    },
+    "noise_in_span": {
+     "margin": 26.11679458618164,
+     "choice_correct": true,
+     "kl": 6.654158823948819e-07,
+     "delta_l2": 20.096527099609375,
+     "relative_rms": 0.10735508054494858,
+     "restoration_l2": 28.61320686340332
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich broad category fits the item?\nA. plant\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 26.100021362304688,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 26.099403381347656,
+     "choice_correct": true,
+     "kl": 1.812009564616801e-08,
+     "delta_l2": 3.282918691635132,
+     "relative_rms": 0.017537258565425873,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 26.095970153808594,
+     "choice_correct": true,
+     "kl": 1.8181551695306553e-06,
+     "delta_l2": 3.282918691635132,
+     "relative_rms": 0.017537258565425873,
+     "restoration_l2": 4.693950176239014
+    },
+    "half_true": {
+     "margin": 26.09971809387207,
+     "choice_correct": true,
+     "kl": 3.7644035444373e-08,
+     "delta_l2": 1.6414591073989868,
+     "relative_rms": 0.008768628351390362,
+     "restoration_l2": 1.641459584236145
+    },
+    "half_random": {
+     "margin": 26.098854064941406,
+     "choice_correct": true,
+     "kl": 4.359356609029419e-08,
+     "delta_l2": 3.674131155014038,
+     "relative_rms": 0.019627105444669724,
+     "restoration_l2": 1.641459345817566
+    },
+    "exact": {
+     "margin": 26.100021362304688,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 3.282918691635132
+    },
+    "noise_in_span": {
+     "margin": 26.10287094116211,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.282918691635132,
+     "relative_rms": 0.017537258565425873,
+     "restoration_l2": 4.098348140716553
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich specific category fits the item?\nA. tree\nB. flower\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 20.825204849243164,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 20.321271896362305,
+     "choice_correct": true,
+     "kl": 0.00740642799064517,
+     "delta_l2": 145.59744262695312,
+     "relative_rms": 0.7777774333953857,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 20.687267303466797,
+     "choice_correct": true,
+     "kl": 0.005722528323531151,
+     "delta_l2": 145.59744262695312,
+     "relative_rms": 0.7777774333953857,
+     "restoration_l2": 205.3920440673828
+    },
+    "half_true": {
+     "margin": 20.74617576599121,
+     "choice_correct": true,
+     "kl": 0.0005106072057969868,
+     "delta_l2": 72.79872131347656,
+     "relative_rms": 0.38888871669769287,
+     "restoration_l2": 72.79872131347656
+    },
+    "half_random": {
+     "margin": 20.564355850219727,
+     "choice_correct": true,
+     "kl": 0.011068951338529587,
+     "delta_l2": 163.92201232910156,
+     "relative_rms": 0.8756667971611023,
+     "restoration_l2": 72.79872131347656
+    },
+    "exact": {
+     "margin": 20.825204849243164,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 145.59744262695312
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich specific category fits the item?\nA. tree\nB. flower\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 20.825204849243164,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 20.642547607421875,
+     "choice_correct": true,
+     "kl": 0.004164503887295723,
+     "delta_l2": 114.32463836669922,
+     "relative_rms": 0.6107190251350403,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 20.715002059936523,
+     "choice_correct": true,
+     "kl": 0.0044065192341804504,
+     "delta_l2": 114.32463836669922,
+     "relative_rms": 0.6107190251350403,
+     "restoration_l2": 160.14100646972656
+    },
+    "half_true": {
+     "margin": 20.791170120239258,
+     "choice_correct": true,
+     "kl": 0.00023837611661292613,
+     "delta_l2": 57.16231918334961,
+     "relative_rms": 0.30535951256752014,
+     "restoration_l2": 57.16231918334961
+    },
+    "half_random": {
+     "margin": 20.527027130126953,
+     "choice_correct": true,
+     "kl": 0.005621215328574181,
+     "delta_l2": 127.95446014404297,
+     "relative_rms": 0.6835291385650635,
+     "restoration_l2": 57.162315368652344
+    },
+    "exact": {
+     "margin": 20.825204849243164,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 114.32463836669922
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich specific category fits the item?\nA. tree\nB. flower\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 20.825204849243164,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 20.464366912841797,
+     "choice_correct": true,
+     "kl": 1.9949641227867687e-06,
+     "delta_l2": 177.7793426513672,
+     "relative_rms": 0.9496922492980957,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 20.660411834716797,
+     "choice_correct": true,
+     "kl": 0.006617419421672821,
+     "delta_l2": 177.77935791015625,
+     "relative_rms": 0.9496923089027405,
+     "restoration_l2": 251.43487548828125
+    },
+    "half_true": {
+     "margin": 20.792953491210938,
+     "choice_correct": true,
+     "kl": 0.00011158285633428022,
+     "delta_l2": 88.8896713256836,
+     "relative_rms": 0.47484612464904785,
+     "restoration_l2": 88.8896713256836
+    },
+    "half_random": {
+     "margin": 20.16881561279297,
+     "choice_correct": true,
+     "kl": 0.0030552202370017767,
+     "delta_l2": 201.0083465576172,
+     "relative_rms": 1.07378089427948,
+     "restoration_l2": 88.88966369628906
+    },
+    "exact": {
+     "margin": 20.825183868408203,
+     "choice_correct": true,
+     "kl": 2.099319473813921e-08,
+     "delta_l2": 2.361634187764139e-06,
+     "relative_rms": 1.2615783084868326e-08,
+     "restoration_l2": 177.7793426513672
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich specific category fits the item?\nA. tree\nB. flower\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 20.825204849243164,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 20.785057067871094,
+     "choice_correct": true,
+     "kl": 0.00012348937161732465,
+     "delta_l2": 32.95740509033203,
+     "relative_rms": 0.17605753242969513,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 20.796863555908203,
+     "choice_correct": true,
+     "kl": 0.0004975128686055541,
+     "delta_l2": 32.95740509033203,
+     "relative_rms": 0.17605753242969513,
+     "restoration_l2": 47.19693374633789
+    },
+    "half_true": {
+     "margin": 20.80553436279297,
+     "choice_correct": true,
+     "kl": 3.015211950696539e-05,
+     "delta_l2": 16.478702545166016,
+     "relative_rms": 0.08802876621484756,
+     "restoration_l2": 16.478702545166016
+    },
+    "half_random": {
+     "margin": 20.76840591430664,
+     "choice_correct": true,
+     "kl": 9.330471220891923e-05,
+     "delta_l2": 36.904293060302734,
+     "relative_rms": 0.19714169204235077,
+     "restoration_l2": 16.478700637817383
+    },
+    "exact": {
+     "margin": 20.8251895904541,
+     "choice_correct": true,
+     "kl": 3.229511946756247e-08,
+     "delta_l2": 3.598715352381987e-07,
+     "relative_rms": 1.922423553679664e-09,
+     "restoration_l2": 32.95740509033203
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich specific category fits the item?\nA. tree\nB. flower\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 20.825204849243164,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 20.828475952148438,
+     "choice_correct": true,
+     "kl": 1.3641994200952468e-06,
+     "delta_l2": 21.77938461303711,
+     "relative_rms": 0.1163448616862297,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 20.806941986083984,
+     "choice_correct": true,
+     "kl": 0.0002186772762797773,
+     "delta_l2": 21.779386520385742,
+     "relative_rms": 0.1163448691368103,
+     "restoration_l2": 30.39015007019043
+    },
+    "half_true": {
+     "margin": 20.826210021972656,
+     "choice_correct": true,
+     "kl": 4.002571074579464e-07,
+     "delta_l2": 10.889691352844238,
+     "relative_rms": 0.058172423392534256,
+     "restoration_l2": 10.889691352844238
+    },
+    "half_random": {
+     "margin": 20.814472198486328,
+     "choice_correct": true,
+     "kl": 8.562993230043503e-07,
+     "delta_l2": 24.610715866088867,
+     "relative_rms": 0.1314697563648224,
+     "restoration_l2": 10.889692306518555
+    },
+    "exact": {
+     "margin": 20.825180053710938,
+     "choice_correct": true,
+     "kl": 5.945642200799739e-08,
+     "delta_l2": 1.5628469896000752e-07,
+     "relative_rms": 8.348684521486405e-10,
+     "restoration_l2": 21.77938461303711
+    },
+    "noise_in_span": {
+     "margin": 20.796178817749023,
+     "choice_correct": true,
+     "kl": 2.9622380679938942e-05,
+     "delta_l2": 21.77938461303711,
+     "relative_rms": 0.1163448616862297,
+     "restoration_l2": 29.98393440246582
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich specific category fits the item?\nA. tree\nB. flower\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 20.825204849243164,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 20.826622009277344,
+     "choice_correct": true,
+     "kl": 1.8453853556366084e-07,
+     "delta_l2": 4.1919636726379395,
+     "relative_rms": 0.022393351420760155,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 20.821800231933594,
+     "choice_correct": true,
+     "kl": 8.149178029270843e-06,
+     "delta_l2": 4.191964149475098,
+     "relative_rms": 0.022393355146050453,
+     "restoration_l2": 5.906671524047852
+    },
+    "half_true": {
+     "margin": 20.825937271118164,
+     "choice_correct": true,
+     "kl": 1.0321962662374062e-07,
+     "delta_l2": 2.0959818363189697,
+     "relative_rms": 0.011196675710380077,
+     "restoration_l2": 2.0959818363189697
+    },
+    "half_random": {
+     "margin": 20.82418441772461,
+     "choice_correct": true,
+     "kl": 3.37520901894095e-07,
+     "delta_l2": 4.637706756591797,
+     "relative_rms": 0.024774499237537384,
+     "restoration_l2": 2.0959815979003906
+    },
+    "exact": {
+     "margin": 20.825204849243164,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 4.1919636726379395
+    },
+    "noise_in_span": {
+     "margin": 20.819351196289062,
+     "choice_correct": true,
+     "kl": 1.2491195775510278e-06,
+     "delta_l2": 4.1919636726379395,
+     "relative_rms": 0.022393351420760155,
+     "restoration_l2": 5.177241802215576
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich specific category fits the item?\nA. tree\nB. flower\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 20.825204849243164,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 20.819656372070312,
+     "choice_correct": true,
+     "kl": 1.7259849300899077e-06,
+     "delta_l2": 20.096527099609375,
+     "relative_rms": 0.10735508054494858,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 20.80840301513672,
+     "choice_correct": true,
+     "kl": 0.00018627425015438348,
+     "delta_l2": 20.096529006958008,
+     "relative_rms": 0.10735509544610977,
+     "restoration_l2": 28.595266342163086
+    },
+    "half_true": {
+     "margin": 20.822202682495117,
+     "choice_correct": true,
+     "kl": 4.517531806413899e-07,
+     "delta_l2": 10.048263549804688,
+     "relative_rms": 0.05367754027247429,
+     "restoration_l2": 10.048264503479004
+    },
+    "half_random": {
+     "margin": 20.807191848754883,
+     "choice_correct": true,
+     "kl": 4.171339242020622e-06,
+     "delta_l2": 22.489097595214844,
+     "relative_rms": 0.12013612687587738,
+     "restoration_l2": 10.048262596130371
+    },
+    "exact": {
+     "margin": 20.825199127197266,
+     "choice_correct": true,
+     "kl": 4.9765148446567764e-08,
+     "delta_l2": 1.564621925354004e-07,
+     "relative_rms": 8.358166381228216e-10,
+     "restoration_l2": 20.096527099609375
+    },
+    "noise_in_span": {
+     "margin": 20.829437255859375,
+     "choice_correct": true,
+     "kl": 4.0680674828763586e-06,
+     "delta_l2": 20.096527099609375,
+     "relative_rms": 0.10735508054494858,
+     "restoration_l2": 28.61320686340332
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich specific category fits the item?\nA. tree\nB. flower\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 20.825204849243164,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 20.824792861938477,
+     "choice_correct": true,
+     "kl": 4.11260486998799e-07,
+     "delta_l2": 3.282918691635132,
+     "relative_rms": 0.017537258565425873,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 20.822525024414062,
+     "choice_correct": true,
+     "kl": 5.024768142902758e-06,
+     "delta_l2": 3.282918691635132,
+     "relative_rms": 0.017537258565425873,
+     "restoration_l2": 4.693950176239014
+    },
+    "half_true": {
+     "margin": 20.825029373168945,
+     "choice_correct": true,
+     "kl": 1.3010590294015856e-07,
+     "delta_l2": 1.6414591073989868,
+     "relative_rms": 0.008768628351390362,
+     "restoration_l2": 1.641459584236145
+    },
+    "half_random": {
+     "margin": 20.8228759765625,
+     "choice_correct": true,
+     "kl": 2.619708823203837e-07,
+     "delta_l2": 3.674131155014038,
+     "relative_rms": 0.019627105444669724,
+     "restoration_l2": 1.641459345817566
+    },
+    "exact": {
+     "margin": 20.825204849243164,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 3.282918691635132
+    },
+    "noise_in_span": {
+     "margin": 20.826000213623047,
+     "choice_correct": true,
+     "kl": 1.0230558444845883e-07,
+     "delta_l2": 3.282918691635132,
+     "relative_rms": 0.017537258565425873,
+     "restoration_l2": 4.098348140716553
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich item was named?\nA. rose\nB. tulip\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 16.064172744750977,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 15.893108367919922,
+     "choice_correct": true,
+     "kl": 0.0015082668978720903,
+     "delta_l2": 145.59744262695312,
+     "relative_rms": 0.7777774333953857,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 15.970918655395508,
+     "choice_correct": true,
+     "kl": 0.00038175677764229476,
+     "delta_l2": 145.59744262695312,
+     "relative_rms": 0.7777774333953857,
+     "restoration_l2": 205.3920440673828
+    },
+    "half_true": {
+     "margin": 16.11943244934082,
+     "choice_correct": true,
+     "kl": 1.758188591338694e-05,
+     "delta_l2": 72.79872131347656,
+     "relative_rms": 0.38888871669769287,
+     "restoration_l2": 72.79872131347656
+    },
+    "half_random": {
+     "margin": 16.178298950195312,
+     "choice_correct": true,
+     "kl": 0.0015707584097981453,
+     "delta_l2": 163.92201232910156,
+     "relative_rms": 0.8756667971611023,
+     "restoration_l2": 72.79872131347656
+    },
+    "exact": {
+     "margin": 16.064172744750977,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 145.59744262695312
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich item was named?\nA. rose\nB. tulip\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 16.064172744750977,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 15.945220947265625,
+     "choice_correct": true,
+     "kl": 0.00022250282927416265,
+     "delta_l2": 114.32463836669922,
+     "relative_rms": 0.6107190251350403,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 15.964942932128906,
+     "choice_correct": true,
+     "kl": 0.00023297034204006195,
+     "delta_l2": 114.32463836669922,
+     "relative_rms": 0.6107190251350403,
+     "restoration_l2": 160.14100646972656
+    },
+    "half_true": {
+     "margin": 16.059289932250977,
+     "choice_correct": true,
+     "kl": 4.532377261057263e-06,
+     "delta_l2": 57.16231918334961,
+     "relative_rms": 0.30535951256752014,
+     "restoration_l2": 57.16231918334961
+    },
+    "half_random": {
+     "margin": 16.087934494018555,
+     "choice_correct": true,
+     "kl": 5.412976679508574e-05,
+     "delta_l2": 127.95446014404297,
+     "relative_rms": 0.6835291385650635,
+     "restoration_l2": 57.162315368652344
+    },
+    "exact": {
+     "margin": 16.064172744750977,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 114.32463836669922
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich item was named?\nA. rose\nB. tulip\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 16.064172744750977,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 16.35930633544922,
+     "choice_correct": true,
+     "kl": 0.00023257014981936663,
+     "delta_l2": 177.7793426513672,
+     "relative_rms": 0.9496922492980957,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 15.983943939208984,
+     "choice_correct": true,
+     "kl": 0.0005530358757823706,
+     "delta_l2": 177.77935791015625,
+     "relative_rms": 0.9496923089027405,
+     "restoration_l2": 251.43487548828125
+    },
+    "half_true": {
+     "margin": 16.046730041503906,
+     "choice_correct": true,
+     "kl": 4.863382514486148e-07,
+     "delta_l2": 88.8896713256836,
+     "relative_rms": 0.47484612464904785,
+     "restoration_l2": 88.8896713256836
+    },
+    "half_random": {
+     "margin": 16.491554260253906,
+     "choice_correct": true,
+     "kl": 0.0002407997817499563,
+     "delta_l2": 201.0083465576172,
+     "relative_rms": 1.07378089427948,
+     "restoration_l2": 88.88966369628906
+    },
+    "exact": {
+     "margin": 16.064146041870117,
+     "choice_correct": true,
+     "kl": 1.3958475264530534e-08,
+     "delta_l2": 2.361634187764139e-06,
+     "relative_rms": 1.2615783084868326e-08,
+     "restoration_l2": 177.7793426513672
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich item was named?\nA. rose\nB. tulip\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 16.064172744750977,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 16.04380989074707,
+     "choice_correct": true,
+     "kl": 2.0437873899936676e-06,
+     "delta_l2": 32.95740509033203,
+     "relative_rms": 0.17605753242969513,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 16.020225524902344,
+     "choice_correct": true,
+     "kl": 1.569637970533222e-05,
+     "delta_l2": 32.95740509033203,
+     "relative_rms": 0.17605753242969513,
+     "restoration_l2": 47.19693374633789
+    },
+    "half_true": {
+     "margin": 16.055810928344727,
+     "choice_correct": true,
+     "kl": 4.139828035931714e-07,
+     "delta_l2": 16.478702545166016,
+     "relative_rms": 0.08802876621484756,
+     "restoration_l2": 16.478702545166016
+    },
+    "half_random": {
+     "margin": 16.061262130737305,
+     "choice_correct": true,
+     "kl": 2.215666228266855e-07,
+     "delta_l2": 36.904293060302734,
+     "relative_rms": 0.19714169204235077,
+     "restoration_l2": 16.478700637817383
+    },
+    "exact": {
+     "margin": 16.064149856567383,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.598715352381987e-07,
+     "relative_rms": 1.922423553679664e-09,
+     "restoration_l2": 32.95740509033203
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich item was named?\nA. rose\nB. tulip\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 16.064172744750977,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 16.003829956054688,
+     "choice_correct": true,
+     "kl": 4.984173642696987e-07,
+     "delta_l2": 21.77938461303711,
+     "relative_rms": 0.1163448616862297,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 16.035402297973633,
+     "choice_correct": true,
+     "kl": 6.487343398475787e-06,
+     "delta_l2": 21.779386520385742,
+     "relative_rms": 0.1163448691368103,
+     "restoration_l2": 30.39015007019043
+    },
+    "half_true": {
+     "margin": 16.03316879272461,
+     "choice_correct": true,
+     "kl": 9.961476621356269e-08,
+     "delta_l2": 10.889691352844238,
+     "relative_rms": 0.058172423392534256,
+     "restoration_l2": 10.889691352844238
+    },
+    "half_random": {
+     "margin": 16.016300201416016,
+     "choice_correct": true,
+     "kl": 1.5200083680610987e-07,
+     "delta_l2": 24.610715866088867,
+     "relative_rms": 0.1314697563648224,
+     "restoration_l2": 10.889692306518555
+    },
+    "exact": {
+     "margin": 16.06416893005371,
+     "choice_correct": true,
+     "kl": 1.5132574284360684e-13,
+     "delta_l2": 1.5628469896000752e-07,
+     "relative_rms": 8.348684521486405e-10,
+     "restoration_l2": 21.77938461303711
+    },
+    "noise_in_span": {
+     "margin": 15.997961044311523,
+     "choice_correct": true,
+     "kl": 8.097811587504111e-06,
+     "delta_l2": 21.77938461303711,
+     "relative_rms": 0.1163448616862297,
+     "restoration_l2": 29.98393440246582
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich item was named?\nA. rose\nB. tulip\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 16.064172744750977,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 16.060680389404297,
+     "choice_correct": true,
+     "kl": 7.360732467986963e-08,
+     "delta_l2": 4.1919636726379395,
+     "relative_rms": 0.022393351420760155,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 16.058944702148438,
+     "choice_correct": true,
+     "kl": 1.7869753321519966e-07,
+     "delta_l2": 4.191964149475098,
+     "relative_rms": 0.022393355146050453,
+     "restoration_l2": 5.906671524047852
+    },
+    "half_true": {
+     "margin": 16.06245231628418,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 2.0959818363189697,
+     "relative_rms": 0.011196675710380077,
+     "restoration_l2": 2.0959818363189697
+    },
+    "half_random": {
+     "margin": 16.063251495361328,
+     "choice_correct": true,
+     "kl": 1.8766692733152013e-07,
+     "delta_l2": 4.637706756591797,
+     "relative_rms": 0.024774499237537384,
+     "restoration_l2": 2.0959815979003906
+    },
+    "exact": {
+     "margin": 16.064172744750977,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 4.1919636726379395
+    },
+    "noise_in_span": {
+     "margin": 16.050716400146484,
+     "choice_correct": true,
+     "kl": 3.6737625919158745e-07,
+     "delta_l2": 4.1919636726379395,
+     "relative_rms": 0.022393351420760155,
+     "restoration_l2": 5.177241802215576
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich item was named?\nA. rose\nB. tulip\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 16.064172744750977,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 15.98077392578125,
+     "choice_correct": true,
+     "kl": 2.425451555154723e-07,
+     "delta_l2": 20.096527099609375,
+     "relative_rms": 0.10735508054494858,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 16.037681579589844,
+     "choice_correct": true,
+     "kl": 5.428400527307531e-06,
+     "delta_l2": 20.096529006958008,
+     "relative_rms": 0.10735509544610977,
+     "restoration_l2": 28.595266342163086
+    },
+    "half_true": {
+     "margin": 16.022790908813477,
+     "choice_correct": true,
+     "kl": 2.860936731963193e-08,
+     "delta_l2": 10.048263549804688,
+     "relative_rms": 0.05367754027247429,
+     "restoration_l2": 10.048264503479004
+    },
+    "half_random": {
+     "margin": 15.995227813720703,
+     "choice_correct": true,
+     "kl": 2.891945996452705e-06,
+     "delta_l2": 22.489097595214844,
+     "relative_rms": 0.12013612687587738,
+     "restoration_l2": 10.048262596130371
+    },
+    "exact": {
+     "margin": 16.064159393310547,
+     "choice_correct": true,
+     "kl": 3.453995844893143e-08,
+     "delta_l2": 1.564621925354004e-07,
+     "relative_rms": 8.358166381228216e-10,
+     "restoration_l2": 20.096527099609375
+    },
+    "noise_in_span": {
+     "margin": 16.07293701171875,
+     "choice_correct": true,
+     "kl": 8.428374087543489e-08,
+     "delta_l2": 20.096527099609375,
+     "relative_rms": 0.10735508054494858,
+     "restoration_l2": 28.61320686340332
+    }
+   }
+  },
+  {
+   "item": "rose",
+   "family": "plant",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: rose.\nWhich item was named?\nA. rose\nB. tulip\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 16.064172744750977,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 16.05895233154297,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.282918691635132,
+     "relative_rms": 0.017537258565425873,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 16.060081481933594,
+     "choice_correct": true,
+     "kl": 1.091427819233104e-07,
+     "delta_l2": 3.282918691635132,
+     "relative_rms": 0.017537258565425873,
+     "restoration_l2": 4.693950176239014
+    },
+    "half_true": {
+     "margin": 16.061542510986328,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.6414591073989868,
+     "relative_rms": 0.008768628351390362,
+     "restoration_l2": 1.641459584236145
+    },
+    "half_random": {
+     "margin": 16.061138153076172,
+     "choice_correct": true,
+     "kl": 2.1482852829990406e-08,
+     "delta_l2": 3.674131155014038,
+     "relative_rms": 0.019627105444669724,
+     "restoration_l2": 1.641459345817566
+    },
+    "exact": {
+     "margin": 16.064172744750977,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 3.282918691635132
+    },
+    "noise_in_span": {
+     "margin": 16.06578254699707,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.282918691635132,
+     "relative_rms": 0.017537258565425873,
+     "restoration_l2": 4.098348140716553
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich broad category fits the item?\nA. animal\nB. plant\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.598588943481445,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.501502990722656,
+     "choice_correct": true,
+     "kl": 0.0014592306688427925,
+     "delta_l2": 143.4894256591797,
+     "relative_rms": 0.7733344435691833,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.48691177368164,
+     "choice_correct": true,
+     "kl": 0.0014523164136335254,
+     "delta_l2": 143.48944091796875,
+     "relative_rms": 0.7733345627784729,
+     "restoration_l2": 203.9855194091797
+    },
+    "half_true": {
+     "margin": 25.604209899902344,
+     "choice_correct": true,
+     "kl": 6.253754690987989e-05,
+     "delta_l2": 71.74471282958984,
+     "relative_rms": 0.3866672217845917,
+     "restoration_l2": 71.74471282958984
+    },
+    "half_random": {
+     "margin": 25.50067901611328,
+     "choice_correct": true,
+     "kl": 0.001159842824563384,
+     "delta_l2": 159.87896728515625,
+     "relative_rms": 0.861665666103363,
+     "restoration_l2": 71.74471282958984
+    },
+    "exact": {
+     "margin": 25.598588943481445,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 143.4894256591797
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich broad category fits the item?\nA. animal\nB. plant\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.598588943481445,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.43894386291504,
+     "choice_correct": true,
+     "kl": 0.000629592570476234,
+     "delta_l2": 106.5513916015625,
+     "relative_rms": 0.5742573738098145,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.485578536987305,
+     "choice_correct": true,
+     "kl": 0.0009710801532492042,
+     "delta_l2": 106.55139923095703,
+     "relative_rms": 0.5742574334144592,
+     "restoration_l2": 151.00054931640625
+    },
+    "half_true": {
+     "margin": 25.518821716308594,
+     "choice_correct": true,
+     "kl": 8.288406388601288e-05,
+     "delta_l2": 53.27569580078125,
+     "relative_rms": 0.2871286869049072,
+     "restoration_l2": 53.27569580078125
+    },
+    "half_random": {
+     "margin": 25.3256778717041,
+     "choice_correct": true,
+     "kl": 0.0008211280219256878,
+     "delta_l2": 117.25931549072266,
+     "relative_rms": 0.6319676041603088,
+     "restoration_l2": 53.275691986083984
+    },
+    "exact": {
+     "margin": 25.598588943481445,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 106.5513916015625
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich broad category fits the item?\nA. animal\nB. plant\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.598588943481445,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.725868225097656,
+     "choice_correct": true,
+     "kl": 0.0004171895270701498,
+     "delta_l2": 179.3839569091797,
+     "relative_rms": 0.966787576675415,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.494422912597656,
+     "choice_correct": true,
+     "kl": 0.0017055426724255085,
+     "delta_l2": 179.38397216796875,
+     "relative_rms": 0.9667876362800598,
+     "restoration_l2": 254.83279418945312
+    },
+    "half_true": {
+     "margin": 25.668712615966797,
+     "choice_correct": true,
+     "kl": 3.444079266046174e-05,
+     "delta_l2": 89.69197845458984,
+     "relative_rms": 0.4833937883377075,
+     "restoration_l2": 89.69197845458984
+    },
+    "half_random": {
+     "margin": 25.06787872314453,
+     "choice_correct": true,
+     "kl": 0.00010926128015853465,
+     "delta_l2": 201.88571166992188,
+     "relative_rms": 1.0880604982376099,
+     "restoration_l2": 89.69197845458984
+    },
+    "exact": {
+     "margin": 25.59857177734375,
+     "choice_correct": true,
+     "kl": 2.9735577555811687e-08,
+     "delta_l2": 1.9050771697948221e-06,
+     "relative_rms": 1.0267389605189692e-08,
+     "restoration_l2": 179.3839569091797
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich broad category fits the item?\nA. animal\nB. plant\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.598588943481445,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.564098358154297,
+     "choice_correct": true,
+     "kl": 5.51800916070988e-08,
+     "delta_l2": 37.46260070800781,
+     "relative_rms": 0.20190422236919403,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.536718368530273,
+     "choice_correct": true,
+     "kl": 0.00011429905862314627,
+     "delta_l2": 37.46260452270508,
+     "relative_rms": 0.20190423727035522,
+     "restoration_l2": 52.84844970703125
+    },
+    "half_true": {
+     "margin": 25.58161163330078,
+     "choice_correct": true,
+     "kl": 7.051604029584269e-07,
+     "delta_l2": 18.73130226135254,
+     "relative_rms": 0.10095211863517761,
+     "restoration_l2": 18.73130226135254
+    },
+    "half_random": {
+     "margin": 25.550323486328125,
+     "choice_correct": true,
+     "kl": 7.641141564818099e-06,
+     "delta_l2": 41.28916549682617,
+     "relative_rms": 0.22252744436264038,
+     "restoration_l2": 18.731300354003906
+    },
+    "exact": {
+     "margin": 25.598583221435547,
+     "choice_correct": true,
+     "kl": 9.467023431852795e-08,
+     "delta_l2": 4.951133405484143e-07,
+     "relative_rms": 2.6684070508764535e-09,
+     "restoration_l2": 37.46260070800781
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich broad category fits the item?\nA. animal\nB. plant\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.598588943481445,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.608144760131836,
+     "choice_correct": true,
+     "kl": 2.446088728902396e-06,
+     "delta_l2": 20.85524559020996,
+     "relative_rms": 0.11239908635616302,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.56173324584961,
+     "choice_correct": true,
+     "kl": 3.271083187428303e-05,
+     "delta_l2": 20.855247497558594,
+     "relative_rms": 0.11239909380674362,
+     "restoration_l2": 28.93045425415039
+    },
+    "half_true": {
+     "margin": 25.60353660583496,
+     "choice_correct": true,
+     "kl": 3.0833459163659427e-07,
+     "delta_l2": 10.427621841430664,
+     "relative_rms": 0.056199535727500916,
+     "restoration_l2": 10.42762279510498
+    },
+    "half_random": {
+     "margin": 25.59763526916504,
+     "choice_correct": true,
+     "kl": 3.735554230388516e-07,
+     "delta_l2": 23.531688690185547,
+     "relative_rms": 0.12682373821735382,
+     "restoration_l2": 10.427621841430664
+    },
+    "exact": {
+     "margin": 25.598583221435547,
+     "choice_correct": true,
+     "kl": 1.2356252021561431e-08,
+     "delta_l2": 1.7662748064140033e-07,
+     "relative_rms": 9.519315335992928e-10,
+     "restoration_l2": 20.85524559020996
+    },
+    "noise_in_span": {
+     "margin": 25.599767684936523,
+     "choice_correct": true,
+     "kl": 4.5619353841175325e-06,
+     "delta_l2": 20.85524559020996,
+     "relative_rms": 0.11239908635616302,
+     "restoration_l2": 29.193527221679688
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich broad category fits the item?\nA. animal\nB. plant\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.598588943481445,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.596912384033203,
+     "choice_correct": true,
+     "kl": 4.8228550042495044e-08,
+     "delta_l2": 3.188249349594116,
+     "relative_rms": 0.017183030024170876,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.592622756958008,
+     "choice_correct": true,
+     "kl": 7.025975605756685e-07,
+     "delta_l2": 3.1882495880126953,
+     "relative_rms": 0.017183031886816025,
+     "restoration_l2": 4.444993019104004
+    },
+    "half_true": {
+     "margin": 25.597753524780273,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.5941245555877686,
+     "relative_rms": 0.008591514080762863,
+     "restoration_l2": 1.5941247940063477
+    },
+    "half_random": {
+     "margin": 25.595407485961914,
+     "choice_correct": true,
+     "kl": 9.515867560594415e-08,
+     "delta_l2": 3.5987019538879395,
+     "relative_rms": 0.01939515955746174,
+     "restoration_l2": 1.594124674797058
+    },
+    "exact": {
+     "margin": 25.598588943481445,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 7.450580596923828e-09,
+     "relative_rms": 4.015481003261101e-11,
+     "restoration_l2": 3.188249349594116
+    },
+    "noise_in_span": {
+     "margin": 25.598508834838867,
+     "choice_correct": true,
+     "kl": 7.957113012935224e-08,
+     "delta_l2": 3.188249349594116,
+     "relative_rms": 0.017183030024170876,
+     "restoration_l2": 3.5593056678771973
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich broad category fits the item?\nA. animal\nB. plant\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.598588943481445,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.63347816467285,
+     "choice_correct": true,
+     "kl": 7.897371006038156e-07,
+     "delta_l2": 24.363370895385742,
+     "relative_rms": 0.13130608201026917,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.556102752685547,
+     "choice_correct": true,
+     "kl": 4.541425732895732e-05,
+     "delta_l2": 24.363370895385742,
+     "relative_rms": 0.13130608201026917,
+     "restoration_l2": 34.9538459777832
+    },
+    "half_true": {
+     "margin": 25.614768981933594,
+     "choice_correct": true,
+     "kl": 5.494820243256981e-07,
+     "delta_l2": 12.181685447692871,
+     "relative_rms": 0.06565304100513458,
+     "restoration_l2": 12.181684494018555
+    },
+    "half_random": {
+     "margin": 25.61839485168457,
+     "choice_correct": true,
+     "kl": 2.981980287586339e-06,
+     "delta_l2": 27.150108337402344,
+     "relative_rms": 0.14632517099380493,
+     "restoration_l2": 12.181685447692871
+    },
+    "exact": {
+     "margin": 25.598573684692383,
+     "choice_correct": true,
+     "kl": 1.6496260357712345e-08,
+     "delta_l2": 2.286733575829203e-07,
+     "relative_rms": 1.2324321563284002e-09,
+     "restoration_l2": 24.363370895385742
+    },
+    "noise_in_span": {
+     "margin": 25.632625579833984,
+     "choice_correct": true,
+     "kl": 1.0426402496932496e-07,
+     "delta_l2": 24.363372802734375,
+     "relative_rms": 0.13130609691143036,
+     "restoration_l2": 34.93013381958008
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich broad category fits the item?\nA. animal\nB. plant\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.598588943481445,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.601825714111328,
+     "choice_correct": true,
+     "kl": 1.8985043936936563e-07,
+     "delta_l2": 4.073706150054932,
+     "relative_rms": 0.021955188363790512,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.59101104736328,
+     "choice_correct": true,
+     "kl": 1.1339666343701538e-06,
+     "delta_l2": 4.073705673217773,
+     "relative_rms": 0.021955184638500214,
+     "restoration_l2": 5.861235618591309
+    },
+    "half_true": {
+     "margin": 25.600196838378906,
+     "choice_correct": true,
+     "kl": 9.884266205517633e-08,
+     "delta_l2": 2.036853075027466,
+     "relative_rms": 0.010977594181895256,
+     "restoration_l2": 2.036853075027466
+    },
+    "half_random": {
+     "margin": 25.600006103515625,
+     "choice_correct": true,
+     "kl": 1.5687362520111492e-07,
+     "delta_l2": 4.640176773071289,
+     "relative_rms": 0.025008173659443855,
+     "restoration_l2": 2.0368525981903076
+    },
+    "exact": {
+     "margin": 25.598588943481445,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 4.073706150054932
+    },
+    "noise_in_span": {
+     "margin": 25.604537963867188,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 4.073706150054932,
+     "relative_rms": 0.021955188363790512,
+     "restoration_l2": 5.215009689331055
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich specific category fits the item?\nA. bird\nB. mammal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.944042205810547,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.432079315185547,
+     "choice_correct": true,
+     "kl": 0.0012537183938547969,
+     "delta_l2": 143.4894256591797,
+     "relative_rms": 0.7733344435691833,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.901561737060547,
+     "choice_correct": true,
+     "kl": 0.0011958024697378278,
+     "delta_l2": 143.48944091796875,
+     "relative_rms": 0.7733345627784729,
+     "restoration_l2": 203.9855194091797
+    },
+    "half_true": {
+     "margin": 21.942138671875,
+     "choice_correct": true,
+     "kl": 4.03566264139954e-05,
+     "delta_l2": 71.74471282958984,
+     "relative_rms": 0.3866672217845917,
+     "restoration_l2": 71.74471282958984
+    },
+    "half_random": {
+     "margin": 21.730819702148438,
+     "choice_correct": true,
+     "kl": 0.0020478421356528997,
+     "delta_l2": 159.87896728515625,
+     "relative_rms": 0.861665666103363,
+     "restoration_l2": 71.74471282958984
+    },
+    "exact": {
+     "margin": 21.944042205810547,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 143.4894256591797
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich specific category fits the item?\nA. bird\nB. mammal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.944042205810547,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.72515106201172,
+     "choice_correct": true,
+     "kl": 0.0008968616602942348,
+     "delta_l2": 106.5513916015625,
+     "relative_rms": 0.5742573738098145,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.931421279907227,
+     "choice_correct": true,
+     "kl": 0.0008372619631700218,
+     "delta_l2": 106.55139923095703,
+     "relative_rms": 0.5742574334144592,
+     "restoration_l2": 151.00054931640625
+    },
+    "half_true": {
+     "margin": 21.872215270996094,
+     "choice_correct": true,
+     "kl": 0.00012023060844512656,
+     "delta_l2": 53.27569580078125,
+     "relative_rms": 0.2871286869049072,
+     "restoration_l2": 53.27569580078125
+    },
+    "half_random": {
+     "margin": 21.655500411987305,
+     "choice_correct": true,
+     "kl": 0.0008892029291018844,
+     "delta_l2": 117.25931549072266,
+     "relative_rms": 0.6319676041603088,
+     "restoration_l2": 53.275691986083984
+    },
+    "exact": {
+     "margin": 21.944042205810547,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 106.5513916015625
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich specific category fits the item?\nA. bird\nB. mammal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.944042205810547,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.71976089477539,
+     "choice_correct": true,
+     "kl": 0.00044660820276476443,
+     "delta_l2": 179.3839569091797,
+     "relative_rms": 0.966787576675415,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.873231887817383,
+     "choice_correct": true,
+     "kl": 0.0013879474718123674,
+     "delta_l2": 179.38397216796875,
+     "relative_rms": 0.9667876362800598,
+     "restoration_l2": 254.83279418945312
+    },
+    "half_true": {
+     "margin": 21.96959686279297,
+     "choice_correct": true,
+     "kl": 2.9300474579940783e-06,
+     "delta_l2": 89.69197845458984,
+     "relative_rms": 0.4833937883377075,
+     "restoration_l2": 89.69197845458984
+    },
+    "half_random": {
+     "margin": 21.583351135253906,
+     "choice_correct": true,
+     "kl": 6.24045860604383e-05,
+     "delta_l2": 201.88571166992188,
+     "relative_rms": 1.0880604982376099,
+     "restoration_l2": 89.69197845458984
+    },
+    "exact": {
+     "margin": 21.944040298461914,
+     "choice_correct": true,
+     "kl": 9.436288195274756e-08,
+     "delta_l2": 1.9050771697948221e-06,
+     "relative_rms": 1.0267389605189692e-08,
+     "restoration_l2": 179.3839569091797
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich specific category fits the item?\nA. bird\nB. mammal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.944042205810547,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.902498245239258,
+     "choice_correct": true,
+     "kl": 4.055727487184413e-08,
+     "delta_l2": 37.46260070800781,
+     "relative_rms": 0.20190422236919403,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.960186004638672,
+     "choice_correct": true,
+     "kl": 0.00010898325126618147,
+     "delta_l2": 37.46260452270508,
+     "relative_rms": 0.20190423727035522,
+     "restoration_l2": 52.84844970703125
+    },
+    "half_true": {
+     "margin": 21.926427841186523,
+     "choice_correct": true,
+     "kl": 5.940440814811154e-07,
+     "delta_l2": 18.73130226135254,
+     "relative_rms": 0.10095211863517761,
+     "restoration_l2": 18.73130226135254
+    },
+    "half_random": {
+     "margin": 21.895225524902344,
+     "choice_correct": true,
+     "kl": 1.4109908079262823e-05,
+     "delta_l2": 41.28916549682617,
+     "relative_rms": 0.22252744436264038,
+     "restoration_l2": 18.731300354003906
+    },
+    "exact": {
+     "margin": 21.944053649902344,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 4.951133405484143e-07,
+     "relative_rms": 2.6684070508764535e-09,
+     "restoration_l2": 37.46260070800781
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich specific category fits the item?\nA. bird\nB. mammal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.944042205810547,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.929048538208008,
+     "choice_correct": true,
+     "kl": 2.3596630853717215e-05,
+     "delta_l2": 20.85524559020996,
+     "relative_rms": 0.11239908635616302,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.95450210571289,
+     "choice_correct": true,
+     "kl": 3.209266651538201e-05,
+     "delta_l2": 20.855247497558594,
+     "relative_rms": 0.11239909380674362,
+     "restoration_l2": 28.93045425415039
+    },
+    "half_true": {
+     "margin": 21.93596839904785,
+     "choice_correct": true,
+     "kl": 5.309007974574342e-06,
+     "delta_l2": 10.427621841430664,
+     "relative_rms": 0.056199535727500916,
+     "restoration_l2": 10.42762279510498
+    },
+    "half_random": {
+     "margin": 21.921066284179688,
+     "choice_correct": true,
+     "kl": 1.10505770862801e-05,
+     "delta_l2": 23.531688690185547,
+     "relative_rms": 0.12682373821735382,
+     "restoration_l2": 10.427621841430664
+    },
+    "exact": {
+     "margin": 21.944034576416016,
+     "choice_correct": true,
+     "kl": 5.381299672535533e-08,
+     "delta_l2": 1.7662748064140033e-07,
+     "relative_rms": 9.519315335992928e-10,
+     "restoration_l2": 20.85524559020996
+    },
+    "noise_in_span": {
+     "margin": 21.933391571044922,
+     "choice_correct": true,
+     "kl": 4.1478975276731944e-07,
+     "delta_l2": 20.85524559020996,
+     "relative_rms": 0.11239908635616302,
+     "restoration_l2": 29.193527221679688
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich specific category fits the item?\nA. bird\nB. mammal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.944042205810547,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.941608428955078,
+     "choice_correct": true,
+     "kl": 9.757003738286585e-08,
+     "delta_l2": 3.188249349594116,
+     "relative_rms": 0.017183030024170876,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.94564437866211,
+     "choice_correct": true,
+     "kl": 7.486046911253652e-07,
+     "delta_l2": 3.1882495880126953,
+     "relative_rms": 0.017183031886816025,
+     "restoration_l2": 4.444993019104004
+    },
+    "half_true": {
+     "margin": 21.94285774230957,
+     "choice_correct": true,
+     "kl": 5.928329471771576e-08,
+     "delta_l2": 1.5941245555877686,
+     "relative_rms": 0.008591514080762863,
+     "restoration_l2": 1.5941247940063477
+    },
+    "half_random": {
+     "margin": 21.94051170349121,
+     "choice_correct": true,
+     "kl": 1.3296796907980024e-07,
+     "delta_l2": 3.5987019538879395,
+     "relative_rms": 0.01939515955746174,
+     "restoration_l2": 1.594124674797058
+    },
+    "exact": {
+     "margin": 21.944042205810547,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 7.450580596923828e-09,
+     "relative_rms": 4.015481003261101e-11,
+     "restoration_l2": 3.188249349594116
+    },
+    "noise_in_span": {
+     "margin": 21.942241668701172,
+     "choice_correct": true,
+     "kl": 4.649743345908064e-08,
+     "delta_l2": 3.188249349594116,
+     "relative_rms": 0.017183030024170876,
+     "restoration_l2": 3.5593056678771973
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich specific category fits the item?\nA. bird\nB. mammal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.944042205810547,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 22.029443740844727,
+     "choice_correct": true,
+     "kl": 4.0595466998638585e-05,
+     "delta_l2": 24.363370895385742,
+     "relative_rms": 0.13130608201026917,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.956010818481445,
+     "choice_correct": true,
+     "kl": 4.438104588189162e-05,
+     "delta_l2": 24.363370895385742,
+     "relative_rms": 0.13130608201026917,
+     "restoration_l2": 34.9538459777832
+    },
+    "half_true": {
+     "margin": 21.984737396240234,
+     "choice_correct": true,
+     "kl": 1.1534255463629961e-05,
+     "delta_l2": 12.181685447692871,
+     "relative_rms": 0.06565304100513458,
+     "restoration_l2": 12.181684494018555
+    },
+    "half_random": {
+     "margin": 22.017797470092773,
+     "choice_correct": true,
+     "kl": 6.505000783363357e-05,
+     "delta_l2": 27.150108337402344,
+     "relative_rms": 0.14632517099380493,
+     "restoration_l2": 12.181685447692871
+    },
+    "exact": {
+     "margin": 21.944046020507812,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 2.286733575829203e-07,
+     "relative_rms": 1.2324321563284002e-09,
+     "restoration_l2": 24.363370895385742
+    },
+    "noise_in_span": {
+     "margin": 21.987348556518555,
+     "choice_correct": true,
+     "kl": 5.821846116305096e-07,
+     "delta_l2": 24.363372802734375,
+     "relative_rms": 0.13130609691143036,
+     "restoration_l2": 34.93013381958008
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich specific category fits the item?\nA. bird\nB. mammal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.944042205810547,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.948049545288086,
+     "choice_correct": true,
+     "kl": 1.822725259614799e-08,
+     "delta_l2": 4.073706150054932,
+     "relative_rms": 0.021955188363790512,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.946088790893555,
+     "choice_correct": true,
+     "kl": 1.2528764727903763e-06,
+     "delta_l2": 4.073705673217773,
+     "relative_rms": 0.021955184638500214,
+     "restoration_l2": 5.861235618591309
+    },
+    "half_true": {
+     "margin": 21.94597816467285,
+     "choice_correct": true,
+     "kl": 6.679329089820385e-08,
+     "delta_l2": 2.036853075027466,
+     "relative_rms": 0.010977594181895256,
+     "restoration_l2": 2.036853075027466
+    },
+    "half_random": {
+     "margin": 21.946659088134766,
+     "choice_correct": true,
+     "kl": 1.7011747388551157e-07,
+     "delta_l2": 4.640176773071289,
+     "relative_rms": 0.025008173659443855,
+     "restoration_l2": 2.0368525981903076
+    },
+    "exact": {
+     "margin": 21.944042205810547,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 4.073706150054932
+    },
+    "noise_in_span": {
+     "margin": 21.951391220092773,
+     "choice_correct": true,
+     "kl": 1.6633416421996117e-08,
+     "delta_l2": 4.073706150054932,
+     "relative_rms": 0.021955188363790512,
+     "restoration_l2": 5.215009689331055
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich item was named?\nA. wolf\nB. fox\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 23.500316619873047,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 23.66718292236328,
+     "choice_correct": true,
+     "kl": 1.2067545185345807e-06,
+     "delta_l2": 143.4894256591797,
+     "relative_rms": 0.7733344435691833,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 23.401838302612305,
+     "choice_correct": true,
+     "kl": 2.624551370900008e-06,
+     "delta_l2": 143.48944091796875,
+     "relative_rms": 0.7733345627784729,
+     "restoration_l2": 203.9855194091797
+    },
+    "half_true": {
+     "margin": 23.535154342651367,
+     "choice_correct": true,
+     "kl": 1.794311117464531e-07,
+     "delta_l2": 71.74471282958984,
+     "relative_rms": 0.3866672217845917,
+     "restoration_l2": 71.74471282958984
+    },
+    "half_random": {
+     "margin": 23.504796981811523,
+     "choice_correct": true,
+     "kl": 3.227749857614981e-06,
+     "delta_l2": 159.87896728515625,
+     "relative_rms": 0.861665666103363,
+     "restoration_l2": 71.74471282958984
+    },
+    "exact": {
+     "margin": 23.500316619873047,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 143.4894256591797
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich item was named?\nA. wolf\nB. fox\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 23.500316619873047,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 23.3009033203125,
+     "choice_correct": true,
+     "kl": 8.254626777670637e-07,
+     "delta_l2": 106.5513916015625,
+     "relative_rms": 0.5742573738098145,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 23.38132667541504,
+     "choice_correct": true,
+     "kl": 1.555555400045705e-06,
+     "delta_l2": 106.55139923095703,
+     "relative_rms": 0.5742574334144592,
+     "restoration_l2": 151.00054931640625
+    },
+    "half_true": {
+     "margin": 23.375896453857422,
+     "choice_correct": true,
+     "kl": 7.514115907270025e-08,
+     "delta_l2": 53.27569580078125,
+     "relative_rms": 0.2871286869049072,
+     "restoration_l2": 53.27569580078125
+    },
+    "half_random": {
+     "margin": 23.213294982910156,
+     "choice_correct": true,
+     "kl": 1.1790239113906864e-06,
+     "delta_l2": 117.25931549072266,
+     "relative_rms": 0.6319676041603088,
+     "restoration_l2": 53.275691986083984
+    },
+    "exact": {
+     "margin": 23.500316619873047,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 106.5513916015625
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich item was named?\nA. wolf\nB. fox\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 23.500316619873047,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 23.708467483520508,
+     "choice_correct": true,
+     "kl": 1.2055318165948847e-06,
+     "delta_l2": 179.3839569091797,
+     "relative_rms": 0.966787576675415,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 23.432897567749023,
+     "choice_correct": true,
+     "kl": 3.353073907419457e-06,
+     "delta_l2": 179.38397216796875,
+     "relative_rms": 0.9667876362800598,
+     "restoration_l2": 254.83279418945312
+    },
+    "half_true": {
+     "margin": 23.65093231201172,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 89.69197845458984,
+     "relative_rms": 0.4833937883377075,
+     "restoration_l2": 89.69197845458984
+    },
+    "half_random": {
+     "margin": 23.37565040588379,
+     "choice_correct": true,
+     "kl": 1.3929435453974293e-06,
+     "delta_l2": 201.88571166992188,
+     "relative_rms": 1.0880604982376099,
+     "restoration_l2": 89.69197845458984
+    },
+    "exact": {
+     "margin": 23.500316619873047,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.9050771697948221e-06,
+     "relative_rms": 1.0267389605189692e-08,
+     "restoration_l2": 179.3839569091797
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich item was named?\nA. wolf\nB. fox\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 23.500316619873047,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 23.44602394104004,
+     "choice_correct": true,
+     "kl": 2.03154328914934e-08,
+     "delta_l2": 37.46260070800781,
+     "relative_rms": 0.20190422236919403,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 23.43142318725586,
+     "choice_correct": true,
+     "kl": 1.6656477441756579e-07,
+     "delta_l2": 37.46260452270508,
+     "relative_rms": 0.20190423727035522,
+     "restoration_l2": 52.84844970703125
+    },
+    "half_true": {
+     "margin": 23.473106384277344,
+     "choice_correct": true,
+     "kl": 4.958556232281808e-08,
+     "delta_l2": 18.73130226135254,
+     "relative_rms": 0.10095211863517761,
+     "restoration_l2": 18.73130226135254
+    },
+    "half_random": {
+     "margin": 23.449996948242188,
+     "choice_correct": true,
+     "kl": 3.80807456679122e-08,
+     "delta_l2": 41.28916549682617,
+     "relative_rms": 0.22252744436264038,
+     "restoration_l2": 18.731300354003906
+    },
+    "exact": {
+     "margin": 23.50031089782715,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 4.951133405484143e-07,
+     "relative_rms": 2.6684070508764535e-09,
+     "restoration_l2": 37.46260070800781
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich item was named?\nA. wolf\nB. fox\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 23.500316619873047,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 23.469623565673828,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 20.85524559020996,
+     "relative_rms": 0.11239908635616302,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 23.460716247558594,
+     "choice_correct": true,
+     "kl": 8.347704039124437e-08,
+     "delta_l2": 20.855247497558594,
+     "relative_rms": 0.11239909380674362,
+     "restoration_l2": 28.93045425415039
+    },
+    "half_true": {
+     "margin": 23.483861923217773,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 10.427621841430664,
+     "relative_rms": 0.056199535727500916,
+     "restoration_l2": 10.42762279510498
+    },
+    "half_random": {
+     "margin": 23.468585968017578,
+     "choice_correct": true,
+     "kl": 2.7135918401199888e-08,
+     "delta_l2": 23.531688690185547,
+     "relative_rms": 0.12682373821735382,
+     "restoration_l2": 10.427621841430664
+    },
+    "exact": {
+     "margin": 23.500324249267578,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.7662748064140033e-07,
+     "relative_rms": 9.519315335992928e-10,
+     "restoration_l2": 20.85524559020996
+    },
+    "noise_in_span": {
+     "margin": 23.46610450744629,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 20.85524559020996,
+     "relative_rms": 0.11239908635616302,
+     "restoration_l2": 29.193527221679688
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich item was named?\nA. wolf\nB. fox\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 23.500316619873047,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 23.500701904296875,
+     "choice_correct": true,
+     "kl": 4.55850077685227e-08,
+     "delta_l2": 3.188249349594116,
+     "relative_rms": 0.017183030024170876,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 23.494281768798828,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.1882495880126953,
+     "relative_rms": 0.017183031886816025,
+     "restoration_l2": 4.444993019104004
+    },
+    "half_true": {
+     "margin": 23.500532150268555,
+     "choice_correct": true,
+     "kl": 2.3090292344818408e-08,
+     "delta_l2": 1.5941245555877686,
+     "relative_rms": 0.008591514080762863,
+     "restoration_l2": 1.5941247940063477
+    },
+    "half_random": {
+     "margin": 23.500505447387695,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.5987019538879395,
+     "relative_rms": 0.01939515955746174,
+     "restoration_l2": 1.594124674797058
+    },
+    "exact": {
+     "margin": 23.500316619873047,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 7.450580596923828e-09,
+     "relative_rms": 4.015481003261101e-11,
+     "restoration_l2": 3.188249349594116
+    },
+    "noise_in_span": {
+     "margin": 23.494457244873047,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.188249349594116,
+     "relative_rms": 0.017183030024170876,
+     "restoration_l2": 3.5593056678771973
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich item was named?\nA. wolf\nB. fox\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 23.500316619873047,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 23.603315353393555,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 24.363370895385742,
+     "relative_rms": 0.13130608201026917,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 23.4542236328125,
+     "choice_correct": true,
+     "kl": 4.777166395797394e-08,
+     "delta_l2": 24.363370895385742,
+     "relative_rms": 0.13130608201026917,
+     "restoration_l2": 34.9538459777832
+    },
+    "half_true": {
+     "margin": 23.549274444580078,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 12.181685447692871,
+     "relative_rms": 0.06565304100513458,
+     "restoration_l2": 12.181684494018555
+    },
+    "half_random": {
+     "margin": 23.596435546875,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 27.150108337402344,
+     "relative_rms": 0.14632517099380493,
+     "restoration_l2": 12.181685447692871
+    },
+    "exact": {
+     "margin": 23.50033187866211,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 2.286733575829203e-07,
+     "relative_rms": 1.2324321563284002e-09,
+     "restoration_l2": 24.363370895385742
+    },
+    "noise_in_span": {
+     "margin": 23.52860450744629,
+     "choice_correct": true,
+     "kl": 6.464317436893907e-08,
+     "delta_l2": 24.363372802734375,
+     "relative_rms": 0.13130609691143036,
+     "restoration_l2": 34.93013381958008
+    }
+   }
+  },
+  {
+   "item": "wolf",
+   "family": "animal",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: wolf.\nWhich item was named?\nA. wolf\nB. fox\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 23.500316619873047,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 23.50501823425293,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 4.073706150054932,
+     "relative_rms": 0.021955188363790512,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 23.49261474609375,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 4.073705673217773,
+     "relative_rms": 0.021955184638500214,
+     "restoration_l2": 5.861235618591309
+    },
+    "half_true": {
+     "margin": 23.502676010131836,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 2.036853075027466,
+     "relative_rms": 0.010977594181895256,
+     "restoration_l2": 2.036853075027466
+    },
+    "half_random": {
+     "margin": 23.504915237426758,
+     "choice_correct": true,
+     "kl": 3.7879228642623275e-08,
+     "delta_l2": 4.640176773071289,
+     "relative_rms": 0.025008173659443855,
+     "restoration_l2": 2.0368525981903076
+    },
+    "exact": {
+     "margin": 23.500316619873047,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 4.073706150054932
+    },
+    "noise_in_span": {
+     "margin": 23.505584716796875,
+     "choice_correct": true,
+     "kl": 2.56915111407352e-09,
+     "delta_l2": 4.073706150054932,
+     "relative_rms": 0.021955188363790512,
+     "restoration_l2": 5.215009689331055
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich broad category fits the item?\nA. artifact\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.251361846923828,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.00473976135254,
+     "choice_correct": true,
+     "kl": 0.01977676711976528,
+     "delta_l2": 163.79617309570312,
+     "relative_rms": 0.80322265625,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.159648895263672,
+     "choice_correct": true,
+     "kl": 0.01267507579177618,
+     "delta_l2": 163.7961883544922,
+     "relative_rms": 0.8032227158546448,
+     "restoration_l2": 228.0795440673828
+    },
+    "half_true": {
+     "margin": 25.22473907470703,
+     "choice_correct": true,
+     "kl": 0.0007905989186838269,
+     "delta_l2": 81.89808654785156,
+     "relative_rms": 0.401611328125,
+     "restoration_l2": 81.89808654785156
+    },
+    "half_random": {
+     "margin": 25.07604217529297,
+     "choice_correct": true,
+     "kl": 0.023155026137828827,
+     "delta_l2": 182.4450225830078,
+     "relative_rms": 0.8946727514266968,
+     "restoration_l2": 81.89807891845703
+    },
+    "exact": {
+     "margin": 25.251361846923828,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 163.79617309570312
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich broad category fits the item?\nA. artifact\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.251361846923828,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.07187843322754,
+     "choice_correct": true,
+     "kl": 0.006245439872145653,
+     "delta_l2": 124.44099426269531,
+     "relative_rms": 0.610232949256897,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.173744201660156,
+     "choice_correct": true,
+     "kl": 0.007453302852809429,
+     "delta_l2": 124.44100189208984,
+     "relative_rms": 0.6102330088615417,
+     "restoration_l2": 174.96051025390625
+    },
+    "half_true": {
+     "margin": 25.197772979736328,
+     "choice_correct": true,
+     "kl": 0.0010295233223587275,
+     "delta_l2": 62.220497131347656,
+     "relative_rms": 0.3051164746284485,
+     "restoration_l2": 62.22049331665039
+    },
+    "half_random": {
+     "margin": 25.02292251586914,
+     "choice_correct": true,
+     "kl": 0.0050128488801419735,
+     "delta_l2": 138.59454345703125,
+     "relative_rms": 0.6796390414237976,
+     "restoration_l2": 62.22049331665039
+    },
+    "exact": {
+     "margin": 25.251361846923828,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 124.44099426269531
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich broad category fits the item?\nA. artifact\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.251361846923828,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.125059127807617,
+     "choice_correct": true,
+     "kl": 0.010890272445976734,
+     "delta_l2": 187.88116455078125,
+     "relative_rms": 0.921330451965332,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.1512508392334,
+     "choice_correct": true,
+     "kl": 0.015822045505046844,
+     "delta_l2": 187.88119506835938,
+     "relative_rms": 0.9213306307792664,
+     "restoration_l2": 260.9553527832031
+    },
+    "half_true": {
+     "margin": 25.172897338867188,
+     "choice_correct": true,
+     "kl": 0.002493313979357481,
+     "delta_l2": 93.94058227539062,
+     "relative_rms": 0.460665225982666,
+     "restoration_l2": 93.94058227539062
+    },
+    "half_random": {
+     "margin": 24.818984985351562,
+     "choice_correct": true,
+     "kl": 0.018471159040927887,
+     "delta_l2": 211.5795135498047,
+     "relative_rms": 1.0375422239303589,
+     "restoration_l2": 93.94058227539062
+    },
+    "exact": {
+     "margin": 25.251365661621094,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.3416934002161724e-06,
+     "relative_rms": 1.6386975332238762e-08,
+     "restoration_l2": 187.88116455078125
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich broad category fits the item?\nA. artifact\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.251361846923828,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.289505004882812,
+     "choice_correct": true,
+     "kl": 0.00012530837557278574,
+     "delta_l2": 31.683576583862305,
+     "relative_rms": 0.15536972880363464,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.230276107788086,
+     "choice_correct": true,
+     "kl": 0.00032579427352175117,
+     "delta_l2": 31.683578491210938,
+     "relative_rms": 0.15536972880363464,
+     "restoration_l2": 45.03654098510742
+    },
+    "half_true": {
+     "margin": 25.271747589111328,
+     "choice_correct": true,
+     "kl": 4.808281300938688e-05,
+     "delta_l2": 15.841788291931152,
+     "relative_rms": 0.07768486440181732,
+     "restoration_l2": 15.841787338256836
+    },
+    "half_random": {
+     "margin": 25.289897918701172,
+     "choice_correct": true,
+     "kl": 0.0003137263411190361,
+     "delta_l2": 34.8803596496582,
+     "relative_rms": 0.17104609310626984,
+     "restoration_l2": 15.841787338256836
+    },
+    "exact": {
+     "margin": 25.251365661621094,
+     "choice_correct": true,
+     "kl": 1.0130041743590043e-13,
+     "delta_l2": 3.616602555212012e-07,
+     "relative_rms": 1.773507229962945e-09,
+     "restoration_l2": 31.683576583862305
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich broad category fits the item?\nA. artifact\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.251361846923828,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.254291534423828,
+     "choice_correct": true,
+     "kl": 9.267421319236746e-07,
+     "delta_l2": 20.69498634338379,
+     "relative_rms": 0.10148394107818604,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.23780059814453,
+     "choice_correct": true,
+     "kl": 0.00012904351751785725,
+     "delta_l2": 20.69498634338379,
+     "relative_rms": 0.10148394107818604,
+     "restoration_l2": 29.239452362060547
+    },
+    "half_true": {
+     "margin": 25.2529296875,
+     "choice_correct": true,
+     "kl": 3.940219173159676e-08,
+     "delta_l2": 10.347494125366211,
+     "relative_rms": 0.050741974264383316,
+     "restoration_l2": 10.347493171691895
+    },
+    "half_random": {
+     "margin": 25.251861572265625,
+     "choice_correct": true,
+     "kl": 6.238281002879376e-06,
+     "delta_l2": 23.267471313476562,
+     "relative_rms": 0.11409887671470642,
+     "restoration_l2": 10.347492218017578
+    },
+    "exact": {
+     "margin": 25.25135040283203,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.014073021110562e-07,
+     "relative_rms": 4.972804945602149e-10,
+     "restoration_l2": 20.69498634338379
+    },
+    "noise_in_span": {
+     "margin": 25.242355346679688,
+     "choice_correct": true,
+     "kl": 4.4036143663106486e-05,
+     "delta_l2": 20.694988250732422,
+     "relative_rms": 0.10148394852876663,
+     "restoration_l2": 23.0529727935791
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich broad category fits the item?\nA. artifact\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.251361846923828,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.250743865966797,
+     "choice_correct": true,
+     "kl": 9.239035421160224e-07,
+     "delta_l2": 2.7460527420043945,
+     "relative_rms": 0.013466075994074345,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.2496337890625,
+     "choice_correct": true,
+     "kl": 1.943478991961456e-06,
+     "delta_l2": 2.7460527420043945,
+     "relative_rms": 0.013466075994074345,
+     "restoration_l2": 3.835707187652588
+    },
+    "half_true": {
+     "margin": 25.251026153564453,
+     "choice_correct": true,
+     "kl": 2.7439173777565884e-07,
+     "delta_l2": 1.3730263710021973,
+     "relative_rms": 0.006733037997037172,
+     "restoration_l2": 1.3730264902114868
+    },
+    "half_random": {
+     "margin": 25.250429153442383,
+     "choice_correct": true,
+     "kl": 2.2095231599905674e-07,
+     "delta_l2": 3.0670692920684814,
+     "relative_rms": 0.01504027470946312,
+     "restoration_l2": 1.3730262517929077
+    },
+    "exact": {
+     "margin": 25.251361846923828,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 2.7460527420043945
+    },
+    "noise_in_span": {
+     "margin": 25.250158309936523,
+     "choice_correct": true,
+     "kl": 6.222255137799948e-07,
+     "delta_l2": 2.7460527420043945,
+     "relative_rms": 0.013466075994074345,
+     "restoration_l2": 3.9095733165740967
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich broad category fits the item?\nA. artifact\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.251361846923828,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.246910095214844,
+     "choice_correct": true,
+     "kl": 0.00012908552889712155,
+     "delta_l2": 28.043210983276367,
+     "relative_rms": 0.13751812279224396,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.232786178588867,
+     "choice_correct": true,
+     "kl": 0.0002489464241079986,
+     "delta_l2": 28.043210983276367,
+     "relative_rms": 0.13751812279224396,
+     "restoration_l2": 40.09840393066406
+    },
+    "half_true": {
+     "margin": 25.24999237060547,
+     "choice_correct": true,
+     "kl": 4.519478170550428e-05,
+     "delta_l2": 14.021605491638184,
+     "relative_rms": 0.06875906139612198,
+     "restoration_l2": 14.021605491638184
+    },
+    "half_random": {
+     "margin": 25.241456985473633,
+     "choice_correct": true,
+     "kl": 0.00025919434847310185,
+     "delta_l2": 31.461803436279297,
+     "relative_rms": 0.15428219735622406,
+     "restoration_l2": 14.02160358428955
+    },
+    "exact": {
+     "margin": 25.251358032226562,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.6479935993629624e-07,
+     "relative_rms": 8.081420532768391e-10,
+     "restoration_l2": 28.043210983276367
+    },
+    "noise_in_span": {
+     "margin": 25.235767364501953,
+     "choice_correct": true,
+     "kl": 1.7043006664607674e-05,
+     "delta_l2": 28.043212890625,
+     "relative_rms": 0.13751812279224396,
+     "restoration_l2": 43.92849349975586
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 0,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich broad category fits the item?\nA. artifact\nB. animal\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 25.251361846923828,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 25.252063751220703,
+     "choice_correct": true,
+     "kl": 2.2862070636620047e-07,
+     "delta_l2": 3.4442880153656006,
+     "relative_rms": 0.01689007692039013,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 25.249168395996094,
+     "choice_correct": true,
+     "kl": 3.2037780783866765e-06,
+     "delta_l2": 3.4442880153656006,
+     "relative_rms": 0.01689007692039013,
+     "restoration_l2": 4.854209899902344
+    },
+    "half_true": {
+     "margin": 25.251731872558594,
+     "choice_correct": true,
+     "kl": 7.234510945863803e-08,
+     "delta_l2": 1.7221440076828003,
+     "relative_rms": 0.008445038460195065,
+     "restoration_l2": 1.7221440076828003
+    },
+    "half_random": {
+     "margin": 25.251737594604492,
+     "choice_correct": true,
+     "kl": 1.2607837334144278e-06,
+     "delta_l2": 3.892479181289673,
+     "relative_rms": 0.019087914377450943,
+     "restoration_l2": 1.7221437692642212
+    },
+    "exact": {
+     "margin": 25.251361846923828,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 3.4442880153656006
+    },
+    "noise_in_span": {
+     "margin": 25.24958038330078,
+     "choice_correct": true,
+     "kl": 1.5491703209136176e-07,
+     "delta_l2": 3.4442882537841797,
+     "relative_rms": 0.01689007878303528,
+     "restoration_l2": 4.8839945793151855
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich specific category fits the item?\nA. vehicle\nB. hand tool\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.39186668395996,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.06602668762207,
+     "choice_correct": true,
+     "kl": 0.04634840041399002,
+     "delta_l2": 163.79617309570312,
+     "relative_rms": 0.80322265625,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.310531616210938,
+     "choice_correct": true,
+     "kl": 0.02722291462123394,
+     "delta_l2": 163.7961883544922,
+     "relative_rms": 0.8032227158546448,
+     "restoration_l2": 228.0795440673828
+    },
+    "half_true": {
+     "margin": 21.407278060913086,
+     "choice_correct": true,
+     "kl": 0.001925967400893569,
+     "delta_l2": 81.89808654785156,
+     "relative_rms": 0.401611328125,
+     "restoration_l2": 81.89808654785156
+    },
+    "half_random": {
+     "margin": 21.27494239807129,
+     "choice_correct": true,
+     "kl": 0.06735118478536606,
+     "delta_l2": 182.4450225830078,
+     "relative_rms": 0.8946727514266968,
+     "restoration_l2": 81.89807891845703
+    },
+    "exact": {
+     "margin": 21.39186668395996,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 163.79617309570312
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich specific category fits the item?\nA. vehicle\nB. hand tool\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.39186668395996,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.247806549072266,
+     "choice_correct": true,
+     "kl": 0.028206778690218925,
+     "delta_l2": 124.44099426269531,
+     "relative_rms": 0.610232949256897,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.337066650390625,
+     "choice_correct": true,
+     "kl": 0.018756376579403877,
+     "delta_l2": 124.44100189208984,
+     "relative_rms": 0.6102330088615417,
+     "restoration_l2": 174.96051025390625
+    },
+    "half_true": {
+     "margin": 21.36052703857422,
+     "choice_correct": true,
+     "kl": 0.004844458308070898,
+     "delta_l2": 62.220497131347656,
+     "relative_rms": 0.3051164746284485,
+     "restoration_l2": 62.22049331665039
+    },
+    "half_random": {
+     "margin": 21.213544845581055,
+     "choice_correct": true,
+     "kl": 0.02406003326177597,
+     "delta_l2": 138.59454345703125,
+     "relative_rms": 0.6796390414237976,
+     "restoration_l2": 62.22049331665039
+    },
+    "exact": {
+     "margin": 21.39186668395996,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 124.44099426269531
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich specific category fits the item?\nA. vehicle\nB. hand tool\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.39186668395996,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.19947052001953,
+     "choice_correct": true,
+     "kl": 0.026900172233581543,
+     "delta_l2": 187.88116455078125,
+     "relative_rms": 0.921330451965332,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.29262924194336,
+     "choice_correct": true,
+     "kl": 0.031104987487196922,
+     "delta_l2": 187.88119506835938,
+     "relative_rms": 0.9213306307792664,
+     "restoration_l2": 260.9553527832031
+    },
+    "half_true": {
+     "margin": 21.19921112060547,
+     "choice_correct": true,
+     "kl": 0.007487553637474775,
+     "delta_l2": 93.94058227539062,
+     "relative_rms": 0.460665225982666,
+     "restoration_l2": 93.94058227539062
+    },
+    "half_random": {
+     "margin": 21.077810287475586,
+     "choice_correct": true,
+     "kl": 0.02866794914007187,
+     "delta_l2": 211.5795135498047,
+     "relative_rms": 1.0375422239303589,
+     "restoration_l2": 93.94058227539062
+    },
+    "exact": {
+     "margin": 21.391876220703125,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.3416934002161724e-06,
+     "relative_rms": 1.6386975332238762e-08,
+     "restoration_l2": 187.88116455078125
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich specific category fits the item?\nA. vehicle\nB. hand tool\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.39186668395996,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.427383422851562,
+     "choice_correct": true,
+     "kl": 0.00010347957140766084,
+     "delta_l2": 31.683576583862305,
+     "relative_rms": 0.15536972880363464,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.376441955566406,
+     "choice_correct": true,
+     "kl": 0.0011427071876823902,
+     "delta_l2": 31.683578491210938,
+     "relative_rms": 0.15536972880363464,
+     "restoration_l2": 45.03654098510742
+    },
+    "half_true": {
+     "margin": 21.410232543945312,
+     "choice_correct": true,
+     "kl": 4.997097494197078e-05,
+     "delta_l2": 15.841788291931152,
+     "relative_rms": 0.07768486440181732,
+     "restoration_l2": 15.841787338256836
+    },
+    "half_random": {
+     "margin": 21.427248001098633,
+     "choice_correct": true,
+     "kl": 0.000515837746206671,
+     "delta_l2": 34.8803596496582,
+     "relative_rms": 0.17104609310626984,
+     "restoration_l2": 15.841787338256836
+    },
+    "exact": {
+     "margin": 21.39187240600586,
+     "choice_correct": true,
+     "kl": 6.884383945619625e-15,
+     "delta_l2": 3.616602555212012e-07,
+     "relative_rms": 1.773507229962945e-09,
+     "restoration_l2": 31.683576583862305
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich specific category fits the item?\nA. vehicle\nB. hand tool\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.39186668395996,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.38861083984375,
+     "choice_correct": true,
+     "kl": 5.1263636123621836e-05,
+     "delta_l2": 20.69498634338379,
+     "relative_rms": 0.10148394107818604,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.38078498840332,
+     "choice_correct": true,
+     "kl": 0.00046696391655132174,
+     "delta_l2": 20.69498634338379,
+     "relative_rms": 0.10148394107818604,
+     "restoration_l2": 29.239452362060547
+    },
+    "half_true": {
+     "margin": 21.38958740234375,
+     "choice_correct": true,
+     "kl": 1.1041021934943274e-05,
+     "delta_l2": 10.347494125366211,
+     "relative_rms": 0.050741974264383316,
+     "restoration_l2": 10.347493171691895
+    },
+    "half_random": {
+     "margin": 21.386110305786133,
+     "choice_correct": true,
+     "kl": 2.6435040467731596e-07,
+     "delta_l2": 23.267471313476562,
+     "relative_rms": 0.11409887671470642,
+     "restoration_l2": 10.347492218017578
+    },
+    "exact": {
+     "margin": 21.391878128051758,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.014073021110562e-07,
+     "relative_rms": 4.972804945602149e-10,
+     "restoration_l2": 20.69498634338379
+    },
+    "noise_in_span": {
+     "margin": 21.371793746948242,
+     "choice_correct": true,
+     "kl": 0.0002563647576607764,
+     "delta_l2": 20.694988250732422,
+     "relative_rms": 0.10148394852876663,
+     "restoration_l2": 23.0529727935791
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich specific category fits the item?\nA. vehicle\nB. hand tool\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.39186668395996,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.393325805664062,
+     "choice_correct": true,
+     "kl": 2.4508333353878697e-06,
+     "delta_l2": 2.7460527420043945,
+     "relative_rms": 0.013466075994074345,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.39010238647461,
+     "choice_correct": true,
+     "kl": 7.695825843256898e-06,
+     "delta_l2": 2.7460527420043945,
+     "relative_rms": 0.013466075994074345,
+     "restoration_l2": 3.835707187652588
+    },
+    "half_true": {
+     "margin": 21.392589569091797,
+     "choice_correct": true,
+     "kl": 6.326299057946017e-07,
+     "delta_l2": 1.3730263710021973,
+     "relative_rms": 0.006733037997037172,
+     "restoration_l2": 1.3730264902114868
+    },
+    "half_random": {
+     "margin": 21.392963409423828,
+     "choice_correct": true,
+     "kl": 5.381984351515712e-07,
+     "delta_l2": 3.0670692920684814,
+     "relative_rms": 0.01504027470946312,
+     "restoration_l2": 1.3730262517929077
+    },
+    "exact": {
+     "margin": 21.39186668395996,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 2.7460527420043945
+    },
+    "noise_in_span": {
+     "margin": 21.388744354248047,
+     "choice_correct": true,
+     "kl": 3.6698829717352055e-06,
+     "delta_l2": 2.7460527420043945,
+     "relative_rms": 0.013466075994074345,
+     "restoration_l2": 3.9095733165740967
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich specific category fits the item?\nA. vehicle\nB. hand tool\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.39186668395996,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.425159454345703,
+     "choice_correct": true,
+     "kl": 0.001234347466379404,
+     "delta_l2": 28.043210983276367,
+     "relative_rms": 0.13751812279224396,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.377805709838867,
+     "choice_correct": true,
+     "kl": 0.0008826205157674849,
+     "delta_l2": 28.043210983276367,
+     "relative_rms": 0.13751812279224396,
+     "restoration_l2": 40.09840393066406
+    },
+    "half_true": {
+     "margin": 21.408710479736328,
+     "choice_correct": true,
+     "kl": 0.0003624924283940345,
+     "delta_l2": 14.021605491638184,
+     "relative_rms": 0.06875906139612198,
+     "restoration_l2": 14.021605491638184
+    },
+    "half_random": {
+     "margin": 21.421733856201172,
+     "choice_correct": true,
+     "kl": 0.0020196016412228346,
+     "delta_l2": 31.461803436279297,
+     "relative_rms": 0.15428219735622406,
+     "restoration_l2": 14.02160358428955
+    },
+    "exact": {
+     "margin": 21.391874313354492,
+     "choice_correct": true,
+     "kl": 5.615869724806544e-08,
+     "delta_l2": 1.6479935993629624e-07,
+     "relative_rms": 8.081420532768391e-10,
+     "restoration_l2": 28.043210983276367
+    },
+    "noise_in_span": {
+     "margin": 21.417049407958984,
+     "choice_correct": true,
+     "kl": 3.236082920921035e-05,
+     "delta_l2": 28.043212890625,
+     "relative_rms": 0.13751812279224396,
+     "restoration_l2": 43.92849349975586
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 1,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich specific category fits the item?\nA. vehicle\nB. hand tool\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 1,
+   "clean": {
+    "margin": 21.39186668395996,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 21.39098358154297,
+     "choice_correct": true,
+     "kl": 1.0996657238138141e-06,
+     "delta_l2": 3.4442880153656006,
+     "relative_rms": 0.01689007692039013,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 21.389667510986328,
+     "choice_correct": true,
+     "kl": 1.2092589713574853e-05,
+     "delta_l2": 3.4442880153656006,
+     "relative_rms": 0.01689007692039013,
+     "restoration_l2": 4.854209899902344
+    },
+    "half_true": {
+     "margin": 21.39141082763672,
+     "choice_correct": true,
+     "kl": 2.8536649665511504e-07,
+     "delta_l2": 1.7221440076828003,
+     "relative_rms": 0.008445038460195065,
+     "restoration_l2": 1.7221440076828003
+    },
+    "half_random": {
+     "margin": 21.390552520751953,
+     "choice_correct": true,
+     "kl": 4.789230388269061e-06,
+     "delta_l2": 3.892479181289673,
+     "relative_rms": 0.019087914377450943,
+     "restoration_l2": 1.7221437692642212
+    },
+    "exact": {
+     "margin": 21.39186668395996,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 3.4442880153656006
+    },
+    "noise_in_span": {
+     "margin": 21.395112991333008,
+     "choice_correct": true,
+     "kl": 2.719968108522153e-07,
+     "delta_l2": 3.4442882537841797,
+     "relative_rms": 0.01689007878303528,
+     "restoration_l2": 4.8839945793151855
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich item was named?\nA. hammer\nB. saw\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 13.649812698364258,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 13.494976043701172,
+     "choice_correct": true,
+     "kl": 0.009965782053768635,
+     "delta_l2": 163.79617309570312,
+     "relative_rms": 0.80322265625,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 13.564212799072266,
+     "choice_correct": true,
+     "kl": 0.005560225807130337,
+     "delta_l2": 163.7961883544922,
+     "relative_rms": 0.8032227158546448,
+     "restoration_l2": 228.0795440673828
+    },
+    "half_true": {
+     "margin": 13.706901550292969,
+     "choice_correct": true,
+     "kl": 1.6079658962553367e-05,
+     "delta_l2": 81.89808654785156,
+     "relative_rms": 0.401611328125,
+     "restoration_l2": 81.89808654785156
+    },
+    "half_random": {
+     "margin": 13.6878662109375,
+     "choice_correct": true,
+     "kl": 0.015296263620257378,
+     "delta_l2": 182.4450225830078,
+     "relative_rms": 0.8946727514266968,
+     "restoration_l2": 81.89807891845703
+    },
+    "exact": {
+     "margin": 13.649812698364258,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 163.79617309570312
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich item was named?\nA. hammer\nB. saw\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 13.649812698364258,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "native",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 13.44664192199707,
+     "choice_correct": true,
+     "kl": 0.0022845810744911432,
+     "delta_l2": 124.44099426269531,
+     "relative_rms": 0.610232949256897,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 13.53310775756836,
+     "choice_correct": true,
+     "kl": 0.002959531731903553,
+     "delta_l2": 124.44100189208984,
+     "relative_rms": 0.6102330088615417,
+     "restoration_l2": 174.96051025390625
+    },
+    "half_true": {
+     "margin": 13.567005157470703,
+     "choice_correct": true,
+     "kl": 0.00022597069619223475,
+     "delta_l2": 62.220497131347656,
+     "relative_rms": 0.3051164746284485,
+     "restoration_l2": 62.22049331665039
+    },
+    "half_random": {
+     "margin": 13.796005249023438,
+     "choice_correct": true,
+     "kl": 0.00012793998757842928,
+     "delta_l2": 138.59454345703125,
+     "relative_rms": 0.6796390414237976,
+     "restoration_l2": 62.22049331665039
+    },
+    "exact": {
+     "margin": 13.649812698364258,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 124.44099426269531
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich item was named?\nA. hammer\nB. saw\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 13.649812698364258,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 13.587562561035156,
+     "choice_correct": true,
+     "kl": 0.003868975443765521,
+     "delta_l2": 187.88116455078125,
+     "relative_rms": 0.921330451965332,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 13.59321403503418,
+     "choice_correct": true,
+     "kl": 0.0072010112926363945,
+     "delta_l2": 187.88119506835938,
+     "relative_rms": 0.9213306307792664,
+     "restoration_l2": 260.9553527832031
+    },
+    "half_true": {
+     "margin": 13.666494369506836,
+     "choice_correct": true,
+     "kl": 8.173578680725768e-05,
+     "delta_l2": 93.94058227539062,
+     "relative_rms": 0.460665225982666,
+     "restoration_l2": 93.94058227539062
+    },
+    "half_random": {
+     "margin": 13.431705474853516,
+     "choice_correct": true,
+     "kl": 0.003769338596612215,
+     "delta_l2": 211.5795135498047,
+     "relative_rms": 1.0375422239303589,
+     "restoration_l2": 93.94058227539062
+    },
+    "exact": {
+     "margin": 13.649808883666992,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 3.3416934002161724e-06,
+     "relative_rms": 1.6386975332238762e-08,
+     "restoration_l2": 187.88116455078125
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich item was named?\nA. hammer\nB. saw\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 13.649812698364258,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 13.68301010131836,
+     "choice_correct": true,
+     "kl": 8.823822099657264e-06,
+     "delta_l2": 31.683576583862305,
+     "relative_rms": 0.15536972880363464,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 13.62386703491211,
+     "choice_correct": true,
+     "kl": 6.789716280763969e-05,
+     "delta_l2": 31.683578491210938,
+     "relative_rms": 0.15536972880363464,
+     "restoration_l2": 45.03654098510742
+    },
+    "half_true": {
+     "margin": 13.667367935180664,
+     "choice_correct": true,
+     "kl": 4.478521532291779e-06,
+     "delta_l2": 15.841788291931152,
+     "relative_rms": 0.07768486440181732,
+     "restoration_l2": 15.841787338256836
+    },
+    "half_random": {
+     "margin": 13.726264953613281,
+     "choice_correct": true,
+     "kl": 0.00011089486361015588,
+     "delta_l2": 34.8803596496582,
+     "relative_rms": 0.17104609310626984,
+     "restoration_l2": 15.841787338256836
+    },
+    "exact": {
+     "margin": 13.649808883666992,
+     "choice_correct": true,
+     "kl": 1.562087881268326e-08,
+     "delta_l2": 3.616602555212012e-07,
+     "relative_rms": 1.773507229962945e-09,
+     "restoration_l2": 31.683576583862305
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich item was named?\nA. hammer\nB. saw\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 13.649812698364258,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 13.607715606689453,
+     "choice_correct": true,
+     "kl": 1.7647303138801362e-06,
+     "delta_l2": 20.69498634338379,
+     "relative_rms": 0.10148394107818604,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 13.63656997680664,
+     "choice_correct": true,
+     "kl": 2.3378703190246597e-05,
+     "delta_l2": 20.69498634338379,
+     "relative_rms": 0.10148394107818604,
+     "restoration_l2": 29.239452362060547
+    },
+    "half_true": {
+     "margin": 13.629583358764648,
+     "choice_correct": true,
+     "kl": 1.547292782788645e-07,
+     "delta_l2": 10.347494125366211,
+     "relative_rms": 0.050741974264383316,
+     "restoration_l2": 10.347493171691895
+    },
+    "half_random": {
+     "margin": 13.631378173828125,
+     "choice_correct": true,
+     "kl": 9.998479981732089e-06,
+     "delta_l2": 23.267471313476562,
+     "relative_rms": 0.11409887671470642,
+     "restoration_l2": 10.347492218017578
+    },
+    "exact": {
+     "margin": 13.649812698364258,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.014073021110562e-07,
+     "relative_rms": 4.972804945602149e-10,
+     "restoration_l2": 20.69498634338379
+    },
+    "noise_in_span": {
+     "margin": 13.56365966796875,
+     "choice_correct": true,
+     "kl": 2.944001607829705e-05,
+     "delta_l2": 20.694988250732422,
+     "relative_rms": 0.10148394852876663,
+     "restoration_l2": 23.0529727935791
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich item was named?\nA. hammer\nB. saw\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 13.649812698364258,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 13.659734725952148,
+     "choice_correct": true,
+     "kl": 4.30579802923603e-08,
+     "delta_l2": 2.7460527420043945,
+     "relative_rms": 0.013466075994074345,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 13.648935317993164,
+     "choice_correct": true,
+     "kl": 3.3091262707785063e-07,
+     "delta_l2": 2.7460527420043945,
+     "relative_rms": 0.013466075994074345,
+     "restoration_l2": 3.835707187652588
+    },
+    "half_true": {
+     "margin": 13.65479850769043,
+     "choice_correct": true,
+     "kl": 3.276268145668837e-08,
+     "delta_l2": 1.3730263710021973,
+     "relative_rms": 0.006733037997037172,
+     "restoration_l2": 1.3730264902114868
+    },
+    "half_random": {
+     "margin": 13.663440704345703,
+     "choice_correct": true,
+     "kl": 5.238963467490976e-07,
+     "delta_l2": 3.0670692920684814,
+     "relative_rms": 0.01504027470946312,
+     "restoration_l2": 1.3730262517929077
+    },
+    "exact": {
+     "margin": 13.649812698364258,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 2.7460527420043945
+    },
+    "noise_in_span": {
+     "margin": 13.639055252075195,
+     "choice_correct": true,
+     "kl": 4.1835491515485046e-07,
+     "delta_l2": 2.7460527420043945,
+     "relative_rms": 0.013466075994074345,
+     "restoration_l2": 3.9095733165740967
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich item was named?\nA. hammer\nB. saw\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 13.649812698364258,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 2,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 13.610370635986328,
+     "choice_correct": true,
+     "kl": 5.6028944527497515e-05,
+     "delta_l2": 28.043210983276367,
+     "relative_rms": 0.13751812279224396,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 13.62844467163086,
+     "choice_correct": true,
+     "kl": 4.965362313669175e-05,
+     "delta_l2": 28.043210983276367,
+     "relative_rms": 0.13751812279224396,
+     "restoration_l2": 40.09840393066406
+    },
+    "half_true": {
+     "margin": 13.632890701293945,
+     "choice_correct": true,
+     "kl": 1.6978774510789663e-05,
+     "delta_l2": 14.021605491638184,
+     "relative_rms": 0.06875906139612198,
+     "restoration_l2": 14.021605491638184
+    },
+    "half_random": {
+     "margin": 13.646106719970703,
+     "choice_correct": true,
+     "kl": 0.0002179690927732736,
+     "delta_l2": 31.461803436279297,
+     "relative_rms": 0.15428219735622406,
+     "restoration_l2": 14.02160358428955
+    },
+    "exact": {
+     "margin": 13.649795532226562,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 1.6479935993629624e-07,
+     "relative_rms": 8.081420532768391e-10,
+     "restoration_l2": 28.043210983276367
+    },
+    "noise_in_span": {
+     "margin": 13.631593704223633,
+     "choice_correct": true,
+     "kl": 1.0894365914282389e-05,
+     "delta_l2": 28.043212890625,
+     "relative_rms": 0.13751812279224396,
+     "restoration_l2": 43.92849349975586
+    }
+   }
+  },
+  {
+   "item": "hammer",
+   "family": "artifact",
+   "template": 0,
+   "grain": 2,
+   "layer": 14,
+   "positions": [
+    5
+   ],
+   "prompt": "<|im_start|>user\nItem: hammer.\nWhich item was named?\nA. hammer\nB. saw\nChoose A or B only.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nAnswer:",
+   "answer_ids": [
+    362,
+    425
+   ],
+   "correct": 0,
+   "clean": {
+    "margin": 13.649812698364258,
+    "choice_correct": true,
+    "kl": 0.0
+   },
+   "seed": 41,
+   "arm": "j_rotated",
+   "bits": 4,
+   "identity_max_error": 0.0,
+   "results": {
+    "coarse": {
+     "margin": 13.648422241210938,
+     "choice_correct": true,
+     "kl": 4.3144652295268315e-08,
+     "delta_l2": 3.4442880153656006,
+     "relative_rms": 0.01689007692039013,
+     "restoration_l2": 0.0
+    },
+    "noise": {
+     "margin": 13.648670196533203,
+     "choice_correct": true,
+     "kl": 4.3858318576894817e-07,
+     "delta_l2": 3.4442880153656006,
+     "relative_rms": 0.01689007692039013,
+     "restoration_l2": 4.854209899902344
+    },
+    "half_true": {
+     "margin": 13.649173736572266,
+     "choice_correct": true,
+     "kl": 2.6677318132328764e-08,
+     "delta_l2": 1.7221440076828003,
+     "relative_rms": 0.008445038460195065,
+     "restoration_l2": 1.7221440076828003
+    },
+    "half_random": {
+     "margin": 13.653013229370117,
+     "choice_correct": true,
+     "kl": 3.149761198528722e-07,
+     "delta_l2": 3.892479181289673,
+     "relative_rms": 0.019087914377450943,
+     "restoration_l2": 1.7221437692642212
+    },
+    "exact": {
+     "margin": 13.649812698364258,
+     "choice_correct": true,
+     "kl": 0.0,
+     "delta_l2": 0.0,
+     "relative_rms": 0.0,
+     "restoration_l2": 3.4442880153656006
+    },
+    "noise_in_span": {
+     "margin": 13.648784637451172,
+     "choice_correct": true,
+     "kl": 1.3445749402762885e-07,
+     "delta_l2": 3.4442882537841797,
+     "relative_rms": 0.01689007878303528,
+     "restoration_l2": 4.8839945793151855
+    }
+   }
+  }
+ ],
+ "complete": true
+}
