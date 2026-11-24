@@ -1,0 +1,13 @@
+# Gate 1 — freeze before inspecting Qwen results
+
+Primary hypothesis: at equal perturbation strength the fine item-identification questions lose more signed answer margin than the broad questions, and native or J-subspace rounding has a greater fine-minus-broad loss than its matched random-displacement control. This is a pilot on named concepts, not a claim of universal semantic geometry.
+
+Design: 12 concepts across four categories, two fixed question phrasings, three grain levels, layers at 1/3, 1/2 and 2/3 depth (zero-based decoder block output), bit counts 2,3,4,6,8, two rotation/noise seeds 41 and 97. Quick mode reduces items, templates, layers, bits and seeds. A/B correct positions are balanced across item and grain; report all clean margins and clean-correct subsets separately. The answer is evaluated at the first answer token with an explicit Answer: prefix; no generated rationale.
+
+For each item and template compute fine-minus-broad excess margin loss over the matched random control. Compare across items, not treating repeated layers or bit levels as independent samples. Report baseline margins and normalized margin loss on clean-correct items as sensitivity analyses. Match or bin realized perturbation RMS relative to source RMS when comparing different arms. Report all doses and both seeds; no best-dose selection. A useful primary signal would be a consistent positive interaction on both seeds and held-out item families, without large unrelated KL. The present 12-item set is exploratory; a separately frozen family/template expansion is required for confirmation.
+
+Half true residue recovery should beat equal-norm random recovery if removed information is direction-specific; exact recovery must reproduce the baseline (up to numerical tolerance) by construction and is not evidence of semantic structure. Random control is isotropic conditional on norm, not a guarantee of equally natural perturbations. Global KL includes the target answer, so it is not an independent unrelated-task test.
+
+Cross-project comparison: align model ID/revision, dtype, prompt text, item token positions, layer indices, clean margin, and realized norm; compare the ordering of answer failures under semantic and numeric interventions. A matching ordering is suggestive, not proof of the same mechanism; shared baseline confidence could explain it. A mismatch does not prove rounding is only damage. Compare rank/order after baseline margin and norm matching.
+
+No proof of ephaptic biology, new quantizer, or architecture. Do not infer absence of information from one local intervention. If the J calibration is degenerate or nonfinite, stop rather than silently substitute a basis.
