@@ -259,6 +259,11 @@ def main():
                                             "half_true":coarse+0.5*d,
                                             "half_random":coarse+0.5*rand_like_norm(d,s+2000),
                                             "exact":coarse+d}
+                                if basis is not None and basis.shape[1] < x.shape[-1]:
+                                    sub_d=d@basis
+                                    in_span=rand_like_norm(sub_d,s+1000)@basis.T
+                                    in_span=in_span*(d.norm(dim=-1,keepdim=True)/in_span.norm(dim=-1,keepdim=True).clamp_min(1e-12))
+                                    candidates["noise_in_span"]=x-in_span
                                 result={}
                                 for mode,v in candidates.items():
                                     logits,c=forward(lm,ids,l,pos,v)
