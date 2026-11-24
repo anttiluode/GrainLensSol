@@ -4,7 +4,20 @@ Companion to [RakeisuusClaude](https://github.com/anttiluode/RakeisuusClaude) (s
 
 **Status: implementation and preregistered pilot, no measured Qwen results yet.** No weight edits, training, speedup or new interpretability method claimed.
 
-## Windows / RTX 3060
+## November 24 correction (V2)
+
+Neon's audit found a category-heavy J vocabulary, item-only intervention bypass and literal copying at the fine level. The user's V1 quick run completed; its numerical results have not been reviewed here. Preserve `runs/quick.json` and do not treat it as a semantic-grain result. See [audit](NEON_AUDIT.md) and [V2 protocol](PROTOCOL_V2.md).
+
+```bat
+git pull --ff-only
+python grain_v2.py --self-test
+python grain_v2.py --quick --out runs/v2_quick.json
+python grain_v2.py --summarize runs/v2_quick.json
+```
+
+V2 compares item-only and whole-suffix cuts, includes an aligned donor transplant gate, asks nonlexical fine properties, and compares equal-rank J subspaces at matched relative L2 doses. Rescaled rounding directions are not strictly quantized values. V2 is committed but has not yet been run here. Keep all V1 receipts. Run V2 quick before considering any full run. The full V2 factorial is substantially larger; do not start it before inspecting the donor gate and realized doses.
+
+## Windows / RTX 3060 (original V1, archived protocol)
 
 Clone this and [Qwenimagination](https://github.com/anttiluode/Qwenimagination) as sibling directories. In your existing CUDA PyTorch environment:
 
